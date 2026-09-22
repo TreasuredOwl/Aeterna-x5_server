@@ -1,0 +1,4 @@
+2026.09.22 16:39:03,303	INFO	3	com.l2journey.commons.util.IXmlReader	Network Config: ipconfig.xml exists, using manual configuration...
+2026.09.22 16:39:03,468	INFO	3	com.l2journey.Config	Loaded 6 Filter Words.
+2026.09.22 16:39:03,483	INFO	3	com.l2journey.gameserver.GameServer	------------------------------------------------=[ Database ]
+2026.09.22 16:39:03,646	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
