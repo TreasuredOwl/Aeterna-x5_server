@@ -1,15 +1,15 @@
-2026.09.22 16:37:07,489	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
-2026.09.22 16:37:07,915	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
-2026.09.22 16:37:07,936	INFO	3	com.l2journey.commons.threads.ThreadPool	ThreadPool: Initialized
-2026.09.22 16:37:07,940	INFO	3	com.l2journey.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
-2026.09.22 16:37:07,943	INFO	3	com.l2journey.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
-2026.09.22 16:37:07,946	INFO	3	com.l2journey.loginserver.LoginController	Loading LoginController...
-2026.09.22 16:37:08,405	INFO	3	com.l2journey.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
-2026.09.22 16:37:08,431	INFO	3	com.l2journey.loginserver.LoginController	Stored 20 keys for Blowfish communication.
-2026.09.22 16:37:08,535	INFO	3	com.l2journey.loginserver.GameServerTable	Loaded 127 server names.
-2026.09.22 16:37:08,581	INFO	3	com.l2journey.loginserver.GameServerTable	Loaded 1 registered Game Servers.
-2026.09.22 16:37:08,664	INFO	3	com.l2journey.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
-2026.09.22 16:37:08,669	INFO	3	com.l2journey.loginserver.LoginServer	Loaded 2 IP Bans.
-2026.09.22 16:37:08,671	INFO	3	com.l2journey.loginserver.LoginServer	Scheduled LS restart after 24 hours.
-2026.09.22 16:37:08,673	INFO	3	com.l2journey.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
-2026.09.22 16:37:08,695	INFO	3	com.l2journey.loginserver.LoginServer	LoginServer: is now listening on: 127.0.0.1:2106
+2026.09.22 16:39:54,247	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2026.09.22 16:39:54,505	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2026.09.22 16:39:54,515	INFO	3	com.l2journey.commons.threads.ThreadPool	ThreadPool: Initialized
+2026.09.22 16:39:54,518	INFO	3	com.l2journey.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2026.09.22 16:39:54,518	INFO	3	com.l2journey.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2026.09.22 16:39:54,520	INFO	3	com.l2journey.loginserver.LoginController	Loading LoginController...
+2026.09.22 16:39:54,843	INFO	3	com.l2journey.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2026.09.22 16:39:54,861	INFO	3	com.l2journey.loginserver.LoginController	Stored 20 keys for Blowfish communication.
+2026.09.22 16:39:54,929	INFO	3	com.l2journey.loginserver.GameServerTable	Loaded 127 server names.
+2026.09.22 16:39:54,952	INFO	3	com.l2journey.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2026.09.22 16:39:55,006	INFO	3	com.l2journey.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2026.09.22 16:39:55,010	INFO	3	com.l2journey.loginserver.LoginServer	Loaded 2 IP Bans.
+2026.09.22 16:39:55,011	INFO	3	com.l2journey.loginserver.LoginServer	Scheduled LS restart after 24 hours.
+2026.09.22 16:39:55,013	INFO	3	com.l2journey.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2026.09.22 16:39:55,028	INFO	3	com.l2journey.loginserver.LoginServer	LoginServer: is now listening on: 127.0.0.1:2106
