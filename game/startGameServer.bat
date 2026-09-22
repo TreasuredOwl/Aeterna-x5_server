@@ -1,8 +1,9 @@
 @echo off
-title L2Journey - Gameserver
-color 02
+chcp 65001 >nul
+title Aeterna - [Гейм Сервер]
+color 03
 :start
-echo Iniciando GameServer.
+echo Запуск Гейм Сервера [Aeterna x5 - Стабільна Версія].
 echo ------------------------------------------------------------------------------
 
 java -server -Dfile.encoding=UTF-8 -Djava.awt.headless=true -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true -Djava.util.logging.manager=com.l2journey.log.ServerLogManager -Dorg.slf4j.simpleLogger.log.com.zaxxer.hikari=warn -XX:+UseZGC -Xmx4g -Xms2g -Dlogback.configurationFile=./logback.xml -cp ./../libs/*;Gameserver.jar com.l2journey.gameserver.GameServer
@@ -20,17 +21,17 @@ goto end
 
 :restart
 echo.
-echo Admin Restarted Game Server.
+echo Адміністратор перезапустив Гейм Сервер.
 echo.
 goto start
 
 :error
 echo.
-echo Game Server parou inesperadamente!
+echo Гейм Сервер неочікувано зупинився!
 echo.
 
 :end
 echo.
-echo Game Server Terminado.
+echo Гейм Сервер завершив роботу.
 echo.
 pause
