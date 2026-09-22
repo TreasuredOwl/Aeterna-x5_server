@@ -1,0 +1,179 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package features.SkillTransfer;
+
+import com.l2journey.Config;
+import com.l2journey.gameserver.data.xml.ClassListData;
+import com.l2journey.gameserver.data.xml.SkillTreeData;
+import com.l2journey.gameserver.managers.PunishmentManager;
+import com.l2journey.gameserver.model.SkillLearn;
+import com.l2journey.gameserver.model.actor.Player;
+import com.l2journey.gameserver.model.actor.enums.player.IllegalActionPunishmentType;
+import com.l2journey.gameserver.model.actor.enums.player.PlayerClass;
+import com.l2journey.gameserver.model.events.holders.actor.player.OnPlayerProfessionCancel;
+import com.l2journey.gameserver.model.events.holders.actor.player.OnPlayerProfessionChange;
+import com.l2journey.gameserver.model.item.enums.ItemProcessType;
+import com.l2journey.gameserver.model.item.holders.ItemHolder;
+import com.l2journey.gameserver.model.item.instance.Item;
+import com.l2journey.gameserver.model.itemcontainer.PlayerInventory;
+import com.l2journey.gameserver.model.skill.Skill;
+
+import ai.AbstractNpcAI;
+
+/**
+ * Skill Transfer feature.
+ * @author Zoey76
+ */
+public class SkillTransfer extends AbstractNpcAI
+{
+	private static final String HOLY_POMANDER = "HOLY_POMANDER_";
+	private static final ItemHolder[] PORMANDERS =
+	{
+		// Cardinal (97)
+		new ItemHolder(15307, 1),
+		// Eva's Saint (105)
+		new ItemHolder(15308, 1),
+		// Shillen Saint (112)
+		new ItemHolder(15309, 4)
+	};
+	
+	private SkillTransfer()
+	{
+		setPlayerProfessionChangeId(this::onProfessionChange);
+		setPlayerProfessionCancelId(this::onProfessionCancel);
+		setOnEnterWorld(Config.SKILL_CHECK_ENABLE);
+	}
+	
+	public void onProfessionChange(OnPlayerProfessionChange event)
+	{
+		final Player player = event.getPlayer();
+		final int index = getTransferClassIndex(player);
+		if (index < 0)
+		{
+			return;
+		}
+		
+		final String name = HOLY_POMANDER + player.getPlayerClass().getId();
+		if (!player.getVariables().getBoolean(name, false))
+		{
+			player.getVariables().set(name, true);
+			giveItems(player, PORMANDERS[index]);
+		}
+	}
+	
+	public void onProfessionCancel(OnPlayerProfessionCancel event)
+	{
+		final Player player = event.getPlayer();
+		final PlayerClass classId = PlayerClass.getPlayerClass(event.getClassId());
+		final int index = getTransferClassIndex(classId);
+		
+		// is a transfer class
+		if (index < 0)
+		{
+			return;
+		}
+		
+		final int pomanderId = PORMANDERS[index].getId();
+		// remove unsused HolyPomander
+		final PlayerInventory inv = player.getInventory();
+		for (Item itemI : inv.getAllItemsByItemId(pomanderId))
+		{
+			inv.destroyItem(ItemProcessType.DESTROY, itemI, player, null);
+		}
+		// remove holy pomander variable
+		final String name = HOLY_POMANDER + event.getClassId();
+		player.getVariables().remove(name);
+	}
+	
+	@Override
+	public void onEnterWorld(Player player)
+	{
+		if (!player.isGM() || Config.SKILL_CHECK_GM)
+		{
+			final int index = getTransferClassIndex(player);
+			if (index < 0)
+			{
+				return;
+			}
+			
+			long count = PORMANDERS[index].getCount() - player.getInventory().getInventoryItemCount(PORMANDERS[index].getId(), -1, false);
+			for (Skill sk : player.getAllSkills())
+			{
+				for (SkillLearn s : SkillTreeData.getInstance().getTransferSkillTree(player.getPlayerClass()).values())
+				{
+					if (s.getSkillId() == sk.getId())
+					{
+						// Holy Weapon allowed for Shilien Saint/Inquisitor stance
+						if ((sk.getId() == 1043) && (index == 2) && player.isInStance())
+						{
+							continue;
+						}
+						
+						count--;
+						if (count < 0)
+						{
+							final String className = ClassListData.getInstance().getClass(player.getPlayerClass()).getClassName();
+							PunishmentManager.handleIllegalPlayerAction(player, player + " has too many transfered skills or items, skill:" + s.getName() + " (" + sk.getId() + "/" + sk.getLevel() + "), class:" + className, IllegalActionPunishmentType.BROADCAST);
+							if (Config.SKILL_CHECK_REMOVE)
+							{
+								player.removeSkill(sk);
+							}
+						}
+					}
+				}
+			}
+			// SkillTransfer or HolyPomander missing
+			if (count > 0)
+			{
+				player.getInventory().addItem(ItemProcessType.COMPENSATE, PORMANDERS[index].getId(), count, player, null);
+			}
+		}
+	}
+	
+	private static int getTransferClassIndex(Player player)
+	{
+		return getTransferClassIndex(player.getPlayerClass());
+	}
+	
+	private static int getTransferClassIndex(PlayerClass classId)
+	{
+		switch (classId)
+		{
+			case CARDINAL:
+			{
+				return 0;
+			}
+			case EVA_SAINT:
+			{
+				return 1;
+			}
+			case SHILLIEN_SAINT:
+			{
+				return 2;
+			}
+			default:
+			{
+				return -1;
+			}
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		new SkillTransfer();
+	}
+}

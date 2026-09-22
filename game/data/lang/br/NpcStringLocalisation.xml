@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/localisations.xsd">
+	<!-- Q00001 -->
+	<localisation id="101" translation="Cartas de amor" />
+	<localisation id="102" translation="Cartas de Amor (Em Andamento)" />
+	<localisation id="103" translation="Cartas de Amor (Concluídas)" />
+	<!-- Q00258 -->
+	<localisation id="25801" translation="Traga peles de lobo" />
+	<localisation id="25802" translation="Traga peles de lobo (em andamento)" />
+	<!-- Plains of Dion -->
+	<localisation id="99702" translation="O que você está olhando?" />
+	<localisation id="1000288" translation="$s1! Como ousa interromper a nossa luta! Socorro, pessoal!" />
+	<localisation id="1000388" translation="$s1! Ei! Temos um duelo aqui!" />
+	<localisation id="1000389" translation="O duelo acabou! Ataque!" />
+	<localisation id="1000390" translation="Que nojo! Matem o covarde!" />
+	<localisation id="1000391" translation="Como ousa interromper um duelo sagrado! Você precisa aprender uma lição!" />
+	<localisation id="1000392" translation="Morra, covarde!" />
+	<localisation id="1000394" translation="Mate o covarde!" />
+</list>

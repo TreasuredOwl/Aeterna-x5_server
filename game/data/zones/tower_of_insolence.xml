@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="TOI" type="MultiFloorZone" shape="NPoly" minZ="-5251" maxZ="10081">
+		<node X="117140" Y="20260" />
+		<node X="115617" Y="20868" />
+		<node X="113448" Y="20831" />
+		<node X="111699" Y="20008" />
+		<node X="110505" Y="18717" />
+		<node X="109692" Y="16745" />
+		<node X="109800" Y="14888" />
+		<node X="110717" Y="12876" />
+		<node X="111920" Y="11807" />
+		<node X="113883" Y="11089" />
+		<node X="115860" Y="11174" />
+		<node X="117663" Y="12046" />
+		<node X="118954" Y="13522" />
+		<node X="119583" Y="15353" />
+		<node X="119491" Y="17249" />
+		<node X="118827" Y="19055" />
+	</zone>
+</list>

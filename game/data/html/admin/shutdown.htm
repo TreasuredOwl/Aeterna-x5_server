@@ -1,0 +1,38 @@
+<html noscrollbar>
+	<title>Shutdown Server</title>
+	<body>
+		<table width=260 border=0 bgcolor="444444">
+			<tr>
+				<td width=45><button value="Main" action="bypass admin_admin" width=65 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td width=180><center>Server Management</center></td>
+				<td width=45><button value="Back" action="bypass admin_admin4" width=65 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table><br><center>
+		<table width=270>
+			<tr>
+				<td width=100><font color="LEVEL">Shutdown time:</font></td>
+				<td><edit var="qbox" width=120 height=15></td>
+			</tr>
+		</table><br><center>
+		<table width=220>	
+			<tr>
+				<td><font color="87CEEB">Players Online:</font></td><td>%count%</td>
+			</tr>
+			<tr>
+				<td><font color="87CEEB">Used Memory:</font></td><td>%used% bytes</td>
+			</tr>
+			<tr>
+				<td><font color="87CEEB">Game Time:</font></td><td>%time%</td>
+			</tr>
+		</table></center><br><br>
+		<center>
+		<table>
+			<tr>
+				<td><button value="Shutdown" action="bypass -h admin_server_shutdown $qbox" width=80 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Restart" action="bypass -h admin_server_restart $qbox" width=80 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Abort" action="bypass -h admin_server_abort" width=80 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table>
+		</center>
+	</body>
+</html>

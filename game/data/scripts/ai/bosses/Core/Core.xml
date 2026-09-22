@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/minions.xsd">
+	<!-- Core Minions Configuration -->
+	<!-- 
+		npcId: ID do NPC minion
+		x, y, z: Coordenadas de spawn
+		respawnTime: Tempo de respawn em segundos (padrão: 60)
+	-->
+	
+	<!-- Death Knights (ID: 29007) -->
+	<minion npcId="29007" x="17191" y="109298" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="17564" y="109548" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="17855" y="109552" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="18280" y="109202" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="18784" y="109253" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="18059" y="108314" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="17300" y="108444" z="-6488" respawnTime="60" />
+	<minion npcId="29007" x="17148" y="110071" z="-6648" respawnTime="60" />
+	<minion npcId="29007" x="18318" y="110077" z="-6648" respawnTime="60" />
+	<minion npcId="29007" x="17726" y="110391" z="-6648" respawnTime="60" />
+	
+	<!-- Doom Wraiths (ID: 29008) -->
+	<minion npcId="29008" x="17113" y="110970" z="-6648" respawnTime="60" />
+	<minion npcId="29008" x="17496" y="110880" z="-6648" respawnTime="60" />
+	<minion npcId="29008" x="18061" y="110990" z="-6648" respawnTime="60" />
+	<minion npcId="29008" x="18384" y="110698" z="-6648" respawnTime="60" />
+	<minion npcId="29008" x="17993" y="111458" z="-6584" respawnTime="60" />
+	
+	<!-- Susceptors (ID: 29011) -->
+	<minion npcId="29011" x="17297" y="111470" z="-6584" respawnTime="60" />
+	<minion npcId="29011" x="17893" y="110198" z="-6648" respawnTime="60" />
+	<minion npcId="29011" x="17706" y="109423" z="-6488" respawnTime="60" />
+	<minion npcId="29011" x="17849" y="109388" z="-6480" respawnTime="60" />
+</list>

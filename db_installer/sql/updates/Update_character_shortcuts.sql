@@ -1,0 +1,1 @@
+ALTER TABLE character_shortcuts ADD COLUMN character_type INT NOT NULL DEFAULT 1;

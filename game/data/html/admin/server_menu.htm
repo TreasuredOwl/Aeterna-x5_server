@@ -1,0 +1,69 @@
+<html noscrollbar>
+	<title>Server Management Panel</title>
+	<body>
+		<center>
+		<table width=270 border=0 bgcolor="444444">
+			<tr>
+				<td><button value="Main" action="bypass admin_admin" width=65 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Char" action="bypass admin_admin6" width=65 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Game" action="bypass admin_admin2" width=65 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="GM" action="bypass admin_admin7" width=65 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table><br>
+		<table width=270>
+			<tr>
+				<td><font color="LEVEL">QuickBox:</font></td>
+				<td><edit var="qbox" width=170 height=15></td>				
+			</tr>
+		</table>
+		<br>
+		<font name="hs8" name="CreditTextSmall" color=ae9977>Development:</font><br1>
+		<table width=270>
+			<tr>
+				<td><button value="Open All Doors" action="bypass -h admin_openall" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Close All Doors" action="bypass -h admin_closeall" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+			<tr>
+				<td><button value="System Message" action="bypass -h admin_msg $qbox" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Spawns Debug" action="bypass -h admin_spawn_debug_menu" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table><br>
+		<table width=270>
+			<tr>
+				<td><button value="Fight Calc" action="bypass -h admin_fight_calculator_show" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Packet Forge" action="bypass -h admin_forge" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Mods" action="bypass admin_admin5" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+			<tr>
+				<td><button value="Skill Test" action="bypass -h admin_skill_test $qbox" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Zone Check" action="bypass -h admin_zone_check" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Server Info" action="bypass -h admin_serverinfo" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+			<tr>
+				<td><button value="Config" action="bypass -h admin_config_server" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Triggers" action="bypass admin_html event_triggers.htm" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Reload" action="bypass admin_html reload.htm" width=85 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table>
+		<br>
+		<font name="hs8" name="CreditTextSmall" color=ae9977>Maintenance:</font><br1>
+		<table width=270>
+			<tr>
+				<td><button value="LoginServer" action="bypass -h admin_server_login" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="GameServer" action="bypass -h admin_server_shutdown" width=130 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table>		
+		<br>
+		<font name="hs8" name="CreditTextSmall" color=ae9977>Geodata:</font><br1>
+		<table width=270>
+			<tr>
+				<td><button value="pos" action="bypass -h admin_geo_pos" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="spawn" action="bypass -h admin_geo_spawn_pos" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="cMove" action="bypass -h admin_geo_can_move" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="LoS" action="bypass -h admin_geo_can_see" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td><button value="Grid" action="bypass -h admin_geogrid" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table>
+		</center>
+	</body>
+</html>

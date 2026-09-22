@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/dressme/armor.xsd">
+	<dress id="1" name="Clan Oatht" type="HEAVY">
+		<set chest="7851" legs="-1" gloves="7852" feet="7853" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="2" name="Clan Oath Brigandine" type="LIGHT">
+		<set chest="7854" legs="-1" gloves="7855" feet="7856" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="3" name="Clan Oath Aketon" type="ROBE">
+		<set chest="7857" legs="-1" gloves="7858" feet="7859" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="4" name="Apella" type="HEAVY">
+		<set chest="7861" legs="-1" gloves="7862" feet="7863" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="5" name="Apella Brigandine" type="LIGHT">
+		<set chest="7864" legs="-1" gloves="7865" feet="7866" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="6" name="Apella Doublet" type="ROBE">
+		<set chest="7867" legs="-1" gloves="7868" feet="7869" />
+		<price id="57" count="2000000000" />
+	</dress>	
+	<dress id="8" name="Formal Wear" type="HEAVY">
+		<set chest="6408" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="20" />
+	</dress>
+</list>

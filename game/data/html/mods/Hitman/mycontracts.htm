@@ -1,0 +1,62 @@
+<html noscrollbar>
+	<body>
+	<br>
+	<center>
+	<table width=750>
+	<tr>
+		<td align=center>
+			<font color="LEVEL">Hitman - My Active Contracts</font><br1>
+			<font color="999999">Manage your assassination contracts</font>
+			</td>
+		</tr>
+	</table>
+	<br1>
+		<img src="L2UI.Squaregray" width="600" height="1">
+	<br>
+	<table width=750>
+		<tr>
+			<td align=center>
+				<img src="icon.etc_roll_of_paper_black_i00" width=32 height=32>
+				<button value="New Contract" action="bypass -h hitman_place" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>
+			<td align=center>
+				<img src="icon.etc_scroll_chalik_i00" width=32 height=32>
+				<button value="My Contracts" action="bypass -h hitman_mycontracts" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>
+			<td align=center>
+				<img src="icon.etc_ssq_scroll_i00" width=32 height=32>
+				<button value="Target List" action="bypass -h hitman_list" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>						
+		</tr>
+	</table>
+	<br>
+		<img src="L2UI.Squaregray" width="750" height="1">
+	<br1>
+	<table width=750 bgcolor="1b1b1b">
+		<tr>
+			<td width=120 align=center><font color="FFCC00">Target Name</font></td>
+			<td width=100 align=center><font color="FFCC00">Bounty</font></td>
+			<td width=80 align=center><font color="FFCC00">Currency</font></td>
+			<td width=60 align=center><font color="FFCC00">Status</font></td>
+			<td width=60 align=center><font color="FFCC00">Action</font></td>
+		</tr>
+	</table>
+	<br1>
+		<img src="L2UI.Squaregray" width="750" height="1">
+	<br>
+	<table width=750>
+	%contractList%
+	</table>
+	<br>
+		<img src="L2UI.Squaregray" width="750" height="1">
+	<br1>
+	<table width=750>
+		<tr>
+			<td align=center>
+				<font color="FF6600">Warning:</font> <font color="999999">Cancelling a contract will NOT refund your bounty!</font>
+			</td>
+		</tr>
+	</table>
+	</center>
+	</body>
+</html>

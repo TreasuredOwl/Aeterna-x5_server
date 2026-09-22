@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="minion" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="npcId" type="xs:positiveInteger" use="required">
+							<xs:annotation>
+								<xs:documentation>ID do NPC minion</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="x" type="xs:int" use="required">
+							<xs:annotation>
+								<xs:documentation>Coordenada X de spawn</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="y" type="xs:int" use="required">
+							<xs:annotation>
+								<xs:documentation>Coordenada Y de spawn</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="z" type="xs:int" use="required">
+							<xs:annotation>
+								<xs:documentation>Coordenada Z de spawn</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="heading" type="xs:int" use="optional" default="0">
+							<xs:annotation>
+								<xs:documentation>Direção (heading) do NPC ao spawnar (padrão: 0)</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="respawnTime" type="xs:positiveInteger" use="optional" default="60">
+							<xs:annotation>
+								<xs:documentation>Tempo de respawn em segundos (padrão: 60)</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

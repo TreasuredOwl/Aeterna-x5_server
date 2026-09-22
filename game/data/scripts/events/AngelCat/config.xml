@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Angel Cat" active="26 10 2020-30 10 2020" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<spawnlist>
+		<!-- Angel Cat -->
+		<add npc="4308" x="-84034" y="243107" z="-3728" heading="4096" /> <!-- Talking Isle -->
+		<add npc="4308" x="-45272" y="-112700" z="-240" heading="0" /> <!-- Orc Village -->
+		<add npc="4308" x="46869" y="50913" z="-2992" heading="8192" /> <!-- Elven Village -->
+		<add npc="4308" x="11482" y="17600" z="-4584" heading="46900" /> <!-- Dark Elven Village -->
+		<add npc="4308" x="115100" y="-178306" z="-880" heading="0" /> <!-- Dwarven Village -->
+		<add npc="4308" x="-117236" y="46785" z="363" heading="50534" /> <!-- Kamael Village -->
+		<add npc="4308" x="147476" y="-55385" z="-2728" heading="49151" /> <!-- Goddard -->		 
+		<add npc="4308" x="87589" y="-143198" z="-1296" heading="17785" /> <!-- Schuttgart -->
+		<add npc="4308" x="43104" y="-48456" z="-792" heading="17000" /> <!-- Rune -->
+		<add npc="4308" x="82002" y="53771" z="-1488" heading="0" /> <!-- Oren -->
+		<add npc="4308" x="82984" y="149343" z="-3464" heading="44000" /> <!-- Giran -->
+		<add npc="4308" x="16117" y="142909" z="-2696" heading="16000" /> <!-- Dion -->
+		<add npc="4308" x="111057" y="218934" z="-3536" heading="16384" /> <!-- Innadril -->
+		<add npc="4308" x="-14081" y="123829" z="-3112" heading="40959" /> <!-- Gludio -->
+		<add npc="4308" x="-81006" y="149991" z="-3040" heading="0" /> <!-- Gludin -->
+		<add npc="4308" x="147265" y="25624" z="-2008" heading="16384" /> <!-- Aden -->
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="AngelCat: Event end!" />
+		<add type="onEnter" text="AngelCat: Event ongoing!" />
+	</messages>
+</event>

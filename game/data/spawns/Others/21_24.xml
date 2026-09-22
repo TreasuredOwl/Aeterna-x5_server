@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="21_24">
+		<npc id="31706" x="44208" y="206560" z="-3760" heading="26000" respawnDelay="60" /> <!-- Miki the Cat -->
+		<npc id="32713" x="52106" y="219171" z="-3224" heading="53247" respawnDelay="60" /> <!-- Pathfinder Worker -->
+		<npc id="20848" x="43889" y="217814" z="-3751" heading="7204" respawnDelay="55" /> <!-- Light Bringer -->
+		<npc id="20841" x="48921" y="220761" z="-3611" heading="63212" respawnDelay="55" /> <!-- Fiend Archer -->
+		<npc id="20842" x="48267" y="220178" z="-3606" heading="21198" respawnDelay="55" /> <!-- Musveren -->
+		<npc id="21619" x="48924" y="218945" z="-3611" heading="2777" respawnDelay="180" /> <!-- Pit Archer -->
+		<npc id="21622" x="48534" y="216662" z="-3610" heading="13735" respawnDelay="180" /> <!-- Greater Musveren -->
+		<npc id="21622" x="49869" y="213902" z="-3451" heading="15453" respawnDelay="180" /> <!-- Greater Musveren -->
+		<npc id="20845" x="51522" y="211517" z="-3051" heading="52718" respawnDelay="55" /> <!-- Pirate Zombie Captain -->
+		<npc id="20846" x="53537" y="210069" z="-2491" heading="63024" respawnDelay="55" /> <!-- Doll Blader -->
+		<npc id="21637" x="52198" y="217277" z="-3368" heading="53579" respawnDelay="60" /> <!-- Crimson Veil Master -->
+		<npc id="21631" x="52457" y="217791" z="-3368" heading="17964" respawnDelay="60" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="21631" x="52020" y="216679" z="-3367" heading="48958" respawnDelay="60" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="21637" x="52417" y="216746" z="-3367" heading="16213" respawnDelay="60" /> <!-- Crimson Veil Master -->
+		<npc id="21637" x="52015" y="218022" z="-3367" heading="18678" respawnDelay="60" /> <!-- Crimson Veil Master -->
+		<npc id="21637" x="52357" y="217387" z="-3364" heading="641" respawnDelay="60" /> <!-- Crimson Veil Master -->
+	</spawn>
+</list>

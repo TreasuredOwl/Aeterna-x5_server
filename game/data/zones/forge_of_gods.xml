@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="Rampa_Forge" type="EffectZone" shape="NPoly" minZ="-2616" maxZ="-2568"> <!-- [25_14] -->
+		<stat name="skillIdLvl" val="4150-12;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="default_enabled" val="true" />
+		<stat name="reuse" val="5000" /> <!-- Guess -->
+		<node X="171673" Y="-115514" />
+		<node X="171336" Y="-115544" />
+		<node X="171336" Y="-115656" />
+		<node X="171675" Y="-115615" />
+	</zone>
+	<zone name="Rampa_Forge_2" type="EffectZone" shape="NPoly" minZ="-3893" maxZ="-3833"> <!-- [25_14] -->
+		<stat name="skillIdLvl" val="4150-12;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="default_enabled" val="true" />
+		<stat name="reuse" val="5000" /> <!-- Guess -->
+		<node X="173549" Y="-114937" />
+		<node X="173533" Y="-114816" />
+		<node X="173242" Y="-114950" />
+		<node X="173271" Y="-115053" />
+	</zone>
+</list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="DoormanZombie">
+		<AIData>
+			<disableRandomWalk>true</disableRandomWalk>
+		</AIData>
+		<npc id="22136" x="35343" y="-49665" z="-789" heading="50490" respawnDelay="180" />
+		<npc id="22136" x="35339" y="-49856" z="-789" heading="16383" respawnDelay="180" />
+		<npc id="22136" x="35515" y="-50080" z="-789" heading="16383" respawnDelay="180" />
+		<npc id="22136" x="35717" y="-50079" z="-789" heading="17459" respawnDelay="180" />
+		<npc id="22136" x="35898" y="-50050" z="-789" heading="31287" respawnDelay="180" />
+		<npc id="22136" x="35914" y="-49766" z="-789" heading="33742" respawnDelay="180" />
+		<npc id="22136" x="35905" y="-49459" z="-789" heading="42053" respawnDelay="180" />
+		<npc id="22136" x="35622" y="-49447" z="-789" heading="53042" respawnDelay="180" />
+		<npc id="22136" x="35329" y="-49459" z="-789" heading="57641" respawnDelay="180" />
+		<npc id="22136" x="34975" y="-49659" z="-789" heading="53403" respawnDelay="180" />
+		<npc id="22136" x="35331" y="-50065" z="-789" heading="12309" respawnDelay="180" />
+		<npc id="22136" x="34977" y="-49858" z="-789" heading="6664" respawnDelay="180" />
+	</spawn>
+</list>

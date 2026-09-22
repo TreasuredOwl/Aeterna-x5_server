@@ -1,0 +1,82 @@
+<html noscrollbar>
+	<body>
+	<br>
+	<center>
+	<table width=750>
+		<tr>
+			<td align=center>
+				<font color="LEVEL">Hitman - Place New Bounty</font><br1>
+				<font color="999999">Put a price on someone's head!</font>
+			</td>
+		</tr>
+	</table>
+	<br1>
+		<img src="L2UI.Squaregray" width="600" height="1">
+	<br>
+	<table width=750>
+		<tr>
+			<td align=center>
+				<img src="icon.etc_roll_of_paper_black_i00" width=32 height=32>
+				<button value="New Contract" action="bypass -h hitman_place" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>
+			<td align=center>
+				<img src="icon.etc_scroll_chalik_i00" width=32 height=32>
+				<button value="My Contracts" action="bypass -h hitman_mycontracts" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>
+			<td align=center>
+				<img src="icon.etc_ssq_scroll_i00" width=32 height=32>
+				<button value="Target List" action="bypass -h hitman_list" width=100 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>						
+		</tr>
+	</table>
+	<br>
+		<img src="L2UI.Squaregray" width="750" height="1">
+	<br>
+	<table width=400 bgcolor="1b1b1b">
+		<tr>
+			<td align=center>
+				<font color="FFCC00">New Assassination Contract</font>
+			</td>
+		</tr>
+	</table>
+	<br>
+
+	<table width=400>
+		<tr>
+			<td width=150><font color="999999">Target Name:</font></td>
+			<td width=250><edit var="targetName" width=150 height=15></td>
+		</tr>
+		<tr>
+			<td width=150><font color="999999">Currency:</font></td>
+			<td width=250><combobox width=150 var="currency" list=%currencyOptions%></td>
+		</tr>
+		<tr>
+			<td width=150><font color="999999">Bounty Amount:</font></td>
+			<td width=250><edit var="bounty" width=150 height=15></td>
+		</tr>
+	</table>
+	<br>
+
+	<table width=400>
+		<tr>
+			<td align=center>
+				<button value="Place Contract" action="bypass -h hitman_placeconfirm $targetName $currency $bounty" width=120 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"/>
+			</td>
+		</tr>
+	</table>
+	<br>
+		<img src="L2UI.Squaregray" width="750" height="1">
+	<br1>
+	<table width=400>
+		<tr>
+			<td align=center>
+				<font color="FF6600">Minimum Bounty:</font> <font color="LEVEL">%minBounty%</font><br1>
+				<font color="999999">The bounty will be taken from your inventory immediately.</font><br1>
+				<font color="999999">Cancelling a contract does NOT refund the bounty!</font>
+			</td>
+		</tr>
+	</table>
+
+	</center>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="no_bookmark_themepark_peace1" type="ConditionZone" shape="NPoly" minZ="-4696" maxZ="3304">
+		<stat name="NoBookmark" val="true" />
+		<node X="-76662" Y="-77593" />
+		<node X="-65536" Y="-77344" />
+		<node X="-65536" Y="-65536" />
+		<node X="-81410" Y="-65536" />
+	</zone>
+	<zone name="no_bookmark_themepark_peace2" type="ConditionZone" shape="NPoly" minZ="-4696" maxZ="3304">
+		<stat name="NoBookmark" val="true" />
+		<node X="-51267" Y="-78666" />
+		<node X="-44978" Y="-75445" />
+		<node X="-44281" Y="-65536" />
+		<node X="-65536" Y="-65536" />
+		<node X="-65536" Y="-72713" />
+	</zone>
+	<zone name="no_bookmark_themepark_peace3" type="ConditionZone" shape="NPoly" minZ="-4696" maxZ="3304">
+		<stat name="NoBookmark" val="true" />
+		<node X="-83544" Y="-65536" />
+		<node X="-65536" Y="-65536" />
+		<node X="-65536" Y="-41699" />
+		<node X="-80543" Y="-39424" />
+		<node X="-91856" Y="-41776" />
+		<node X="-92099" Y="-53834" />
+	</zone>
+	<zone name="no_bookmark_themepark_peace4" type="ConditionZone" shape="NPoly" minZ="-4696" maxZ="3304">
+		<stat name="NoBookmark" val="true" />
+		<node X="-65536" Y="-65536" />
+		<node X="-43060" Y="-65536" />
+		<node X="-44899" Y="-44178" />
+		<node X="-65536" Y="-43068" />
+	</zone>
+	<zone name="Fantasy Isle" id="11039" type="TownZone" shape="Cuboid" minZ="-4324" maxZ="3097">
+		<stat name="townId" val="22" />
+		<node X="-88871" Y="-77664" />
+		<node X="-43060" Y="-43491" />
+	</zone>
+	<zone name="Fantasy Isle Magic Zone" type="EffectZone" shape="Cuboid" minZ="-4324" maxZ="3097">
+		<stat name="chance" val="100" />
+		<stat name="default_enabled" val="true" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="3000" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="skillIdLvl" val="22300-1;" />
+		<node X="-88871" Y="-77664" />
+		<node X="-43060" Y="-43491" />
+	</zone>
+	<zone name="themepark_peace1" type="PeaceZone" shape="NPoly" minZ="-4696" maxZ="3304"> <!-- [17_15] -->
+		<node X="-76662" Y="-77593" />
+		<node X="-65536" Y="-77344" />
+		<node X="-65536" Y="-65536" />
+		<node X="-81410" Y="-65536" />
+	</zone>
+	<zone name="themepark_peace2" type="PeaceZone" shape="NPoly" minZ="-4696" maxZ="3304"> <!-- [18_15] -->
+		<node X="-51267" Y="-78666" />
+		<node X="-44978" Y="-75445" />
+		<node X="-44281" Y="-65536" />
+		<node X="-65536" Y="-65536" />
+		<node X="-65536" Y="-72713" />
+	</zone>
+	<zone name="themepark_peace3" type="PeaceZone" shape="NPoly" minZ="-4696" maxZ="3304"> <!-- [17_16] -->
+		<node X="-83544" Y="-65536" />
+		<node X="-65536" Y="-65536" />
+		<node X="-65536" Y="-41699" />
+		<node X="-80543" Y="-39424" />
+		<node X="-91856" Y="-41776" />
+		<node X="-92099" Y="-53834" />
+	</zone>
+	<zone name="themepark_peace4" type="PeaceZone" shape="NPoly" minZ="-4696" maxZ="3304"> <!-- [18_16] -->
+		<node X="-65536" Y="-65536" />
+		<node X="-43060" Y="-65536" />
+		<node X="-44899" Y="-44178" />
+		<node X="-65536" Y="-43068" />
+	</zone>
+	<!-- Fantasy Island (Handy's Block Checker) -->
+	<zone name="18_16_etc08_nodrop" type="ConditionZone" shape="NPoly" minZ="-2425" maxZ="-2225">
+		<stat name="NoItemDrop" val="true" />
+		<node X="-58571" Y="-64074" />
+		<node X="-56368" Y="-64071" />
+		<node X="-56370" Y="-61896" />
+		<node X="-58565" Y="-61904" />
+	</zone>
+</list>

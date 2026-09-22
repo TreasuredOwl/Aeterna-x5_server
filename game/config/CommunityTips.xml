@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Lista de dicas exibidas aleatoriamente no banner "DICA DO DIA" do Community Board.
+	
+	Atributos opcionais por <tip>:
+	  title    -> texto do cabecalho (padrao: "DICA DO DIA")
+	  icon     -> textura do icone exibido a esquerda (padrao: L2UI.MainStatus_large)
+	  color    -> cor do texto principal em hex sem # (padrao: AE9977)
+	  highlight-> cor das palavras destacadas com [b]...[/b] dentro do texto (padrao: CDB67F)
+	
+	Voce pode marcar palavras com [b]palavra[/b] para serem coloridas com a cor "highlight".
+	
+	<tip title="EVENTO DE NATAL" icon="icon.skill1374" color="DCE0E6" highlight="FF6B6B">Durante o [b]Natal[/b], visite o [b]Papai Noel[/b] em Giran para receber um [b]presente diario[/b] gratuito!</tip>
+-->
+<list>
+	<tip>Use o [b]Drop Search[/b] para descobrir onde os melhores itens caem.</tip>
+	<tip>Pressione [b]Alt+B[/b] a qualquer momento para abrir o Community Board.</tip>
+	<tip>Junte-se a um [b]clan[/b] para participar de [b]sieges[/b] e ganhar recompensas exclusivas.</tip>
+	<tip>O sistema de [b]Premium[/b] aumenta seus drops, XP e SP. Confira na aba Premium!</tip>
+	<tip>Visite o [b]Buffer[/b] no Community Board antes de sair para cacar.</tip>
+	<tip>Adicione locais como [b]Favoritos[/b] para teleportar rapidamente sem precisar lembrar coordenadas.</tip>
+	<tip>Cuidado com [b]Raid Bosses[/b]! Eles aplicam debuffs poderosos. Use [b]Resistance Potions[/b].</tip>
+	<tip>Os bosses [b]Antharas[/b], [b]Valakas[/b] e [b]Baium[/b] dao recompensas lendarias para grupos preparados.</tip>
+	<tip title="VOCE SABIA?">Voce pode trocar adena por outras moedas no [b]Merchant[/b] do Community Board.</tip>
+	<tip title="DICA DE PVP">Use [b]Shadow Weapons[/b] para iniciar sem investir adena em equipamento.</tip>
+	<tip>Participe dos [b]eventos sazonais[/b] para ganhar itens unicos que nao aparecem em outro momento.</tip>
+	<tip>Lembre-se: jogadores em [b]combate[/b] nao conseguem acessar todos os recursos do Community Board.</tip>
+</list>

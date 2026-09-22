@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="day" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="reward" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="itemId" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="count" type="xs:positiveInteger" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="number" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="icon" type="xs:string" use="optional" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="checkType" type="xs:string" use="optional" default="ACCOUNT" />
+			<xs:attribute name="resetHour" type="xs:integer" use="optional" default="6" />
+			<xs:attribute name="resetMinute" type="xs:integer" use="optional" default="30" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

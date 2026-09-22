@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enableSystem="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../data/xsd/LevelSurvey.xsd">
+	<!-- Level Rewards -->
+	<!-- Set enableSystem="false" to disable the entire level reward system -->
+	
+	<!-- Level 20 -->
+	<level id="20" message="Congratulations on reaching level 20! You received Adena and potions!">
+		<item id="57" count="100000" /> <!-- Adena -->
+		<item id="1060" count="100" /> <!-- Greater Healing Potion -->
+	</level>
+	
+	<!-- Level 40 -->
+	<level id="40" message="Congratulations on reaching level 40! You received Adena and scrolls!">
+		<item id="57" count="500000" /> <!-- Adena -->
+		<item id="1538" count="10" /> <!-- Blessed Scroll of Escape -->
+	</level>
+	
+	<!-- Level 60 -->
+	<level id="60" message="Congratulations on reaching level 60! You received Adena and Giant's Codex!">
+		<item id="57" count="1000000" /> <!-- Adena -->
+		<item id="6622" count="10" /> <!-- Giant's Codex -->
+	</level>
+	
+	<!-- Level 76 -->
+	<level id="76" message="Congratulations on reaching level 76! You received a great reward!">
+		<item id="57" count="5000000" /> <!-- Adena -->
+		<item id="8627" count="1" /> <!-- Elixir of Life S-Grade -->
+	</level>
+	
+	<!-- Add more levels as needed -->
+	<!-- Example level 85 -->
+	<!--
+	<level id="85" message="Congratulations on reaching level 85! Special reward!">
+		<item id="57" count="10000000" />
+		<item id="959" count="1" />
+	</level>
+	-->
+</list>

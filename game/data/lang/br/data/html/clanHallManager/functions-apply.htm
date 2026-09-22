@@ -1,0 +1,29 @@
+<html noscrollbar>
+	<body>
+		<center><font color="LEVEL">[Manage Clan Hall]</font></center><br>
+		<table width=275 cellspacing=3 cellpadding=0>
+			<tr>
+				<td FIXWIDTH=60><font color="999999">Name</font></td>
+				<td FIXWIDTH=210>%name%</td>
+			</tr>
+			<tr>
+				<td><font color="999999">Custo</font></td>
+				<td><font color="00FFFF"><font color="FFAABB">%cost%</td>
+			</tr>
+			<tr>
+				<td valign=top><font color="999999">Use</font></td>
+				<td>%use%</td>
+			</tr>
+		</table><br>
+		A taxa para usar este recurso deve ser paga antecipadamente.<br>
+		A taxa inicial será deduzida do <font color="LEVEL">inventário</font> do Senhor do Clã e as taxas subsequentes serão retiradas do <font color="LEVEL">clan warehouse</font>.<br>
+		Se não houver Adena suficiente no <font color="LEVEL">clan warehouse</font>, <font color="LEVEL">o aparato será resetado</font>.<br>
+		<center>
+		<table width=200>
+			<tr>
+				<td align=center><button action="bypass -h npc_%objectId%_manage %apply%" value="OK" width=110 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td align=center><button action="bypass -h npc_%objectId%_manage" value="Cancelar" width=110 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table></center>
+	</body>
+</html>

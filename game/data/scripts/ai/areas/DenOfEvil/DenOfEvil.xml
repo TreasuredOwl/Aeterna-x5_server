@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/minions.xsd">
+	<!-- Den of Evil - Kasha's Eye spawn locations -->
+	<!-- npcId is randomly assigned at runtime from: 18812, 18813, 18814 -->
+	<minion npcId="18812" x="71544" y="-129400" z="-3360" heading="16472" />
+	<minion npcId="18812" x="70954" y="-128854" z="-3360" heading="16" />
+	<minion npcId="18812" x="72145" y="-128847" z="-3368" heading="32832" />
+	<minion npcId="18812" x="76147" y="-128372" z="-3144" heading="16152" />
+	<minion npcId="18812" x="71573" y="-128309" z="-3360" heading="49152" />
+	<minion npcId="18812" x="75211" y="-127441" z="-3152" heading="0" />
+	<minion npcId="18812" x="77005" y="-127406" z="-3144" heading="32784" />
+	<minion npcId="18812" x="75965" y="-126486" z="-3144" heading="49120" />
+	<minion npcId="18812" x="70972" y="-126429" z="-3016" heading="19208" />
+	<minion npcId="18812" x="69916" y="-125838" z="-3024" heading="2840" />
+	<minion npcId="18812" x="71658" y="-125459" z="-3016" heading="35136" />
+	<minion npcId="18812" x="70605" y="-124646" z="-3040" heading="52104" />
+	<minion npcId="18812" x="67283" y="-123237" z="-2912" heading="12376" />
+	<minion npcId="18812" x="68383" y="-122754" z="-2912" heading="27904" />
+	<minion npcId="18812" x="74137" y="-122733" z="-3024" heading="13272" />
+	<minion npcId="18812" x="66736" y="-122007" z="-2896" heading="60576" />
+	<minion npcId="18812" x="73289" y="-121769" z="-3024" heading="1024" />
+	<minion npcId="18812" x="67894" y="-121491" z="-2912" heading="43872" />
+	<minion npcId="18812" x="75530" y="-121477" z="-3008" heading="34424" />
+	<minion npcId="18812" x="74117" y="-120459" z="-3024" heading="52344" />
+	<minion npcId="18812" x="69608" y="-119855" z="-2534" heading="17251" />
+	<minion npcId="18812" x="71014" y="-119027" z="-2520" heading="31904" />
+	<minion npcId="18812" x="68944" y="-118964" z="-2527" heading="59874" />
+	<minion npcId="18812" x="62261" y="-118263" z="-3072" heading="12888" />
+	<minion npcId="18812" x="70300" y="-117942" z="-2528" heading="46208" />
+	<minion npcId="18812" x="74312" y="-117583" z="-2272" heading="15280" />
+	<minion npcId="18812" x="63276" y="-117409" z="-3064" heading="24760" />
+	<minion npcId="18812" x="68104" y="-117192" z="-2168" heading="15888" />
+	<minion npcId="18812" x="73758" y="-116945" z="-2216" heading="0" />
+	<minion npcId="18812" x="74944" y="-116858" z="-2220" heading="30892" />
+	<minion npcId="18812" x="61715" y="-116623" z="-3064" heading="59888" />
+	<minion npcId="18812" x="69140" y="-116464" z="-2168" heading="28952" />
+	<minion npcId="18812" x="67311" y="-116374" z="-2152" heading="1280" />
+	<minion npcId="18812" x="62459" y="-116370" z="-3064" heading="48624" />
+	<minion npcId="18812" x="74475" y="-116260" z="-2216" heading="47456" />
+	<minion npcId="18812" x="68333" y="-115015" z="-2168" heading="45136" />
+	<minion npcId="18812" x="68280" y="-108129" z="-1160" heading="17992" />
+	<minion npcId="18812" x="62983" y="-107259" z="-2384" heading="12552" />
+	<minion npcId="18812" x="67062" y="-107125" z="-1144" heading="64008" />
+	<minion npcId="18812" x="68893" y="-106954" z="-1160" heading="36704" />
+	<minion npcId="18812" x="63848" y="-106771" z="-2384" heading="32784" />
+	<minion npcId="18812" x="62372" y="-106514" z="-2384" heading="0" />
+	<minion npcId="18812" x="67838" y="-106143" z="-1160" heading="51232" />
+	<minion npcId="18812" x="62905" y="-106109" z="-2384" heading="51288" />
+</list>

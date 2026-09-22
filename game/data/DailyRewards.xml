@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Daily Rewards Configuration
+	
+	Attributes:
+	- checkType: How to track players (ACCOUNT, CHARACTER, IP)
+	- resetHour: Hour of day when rewards reset (0-23)
+	- resetMinute: Minute when rewards reset (0-59)
+	
+	Each <day> element represents rewards for that day in the cycle.
+	When a player reaches the last day, they cycle back to day 1.
+	
+	Reward attributes:
+	- itemId: The ID of the item to give
+	- count: How many of the item to give
+	
+	Optional day attributes:
+	- icon: Custom icon to display (e.g., "icon.etc_adena_i00")
+-->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/DailyRewards.xsd" checkType="ACCOUNT" resetHour="6" resetMinute="30">
+	
+	<!-- Week 1 -->
+	<day number="1" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="500000" /> <!-- Adena -->
+	</day>
+	
+	<day number="2" icon="icon.etc_scroll_of_return_i01">
+		<reward itemId="1538" count="5" /> <!-- Blessed Scroll of Escape -->
+	</day>
+	
+	<day number="3" icon="icon.etc_reagent_white_i00">
+		<reward itemId="1539" count="50" /> <!-- Greater Healing Potion -->
+	</day>
+	
+	<day number="4" icon="icon.etc_stone_gray_i00">
+		<reward itemId="3031" count="100" /> <!-- Spirit Ore -->
+	</day>
+	
+	<day number="5" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="1000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="6" icon="icon.etc_scroll_of_enchant_armor_i02">
+		<reward itemId="952" count="3" /> <!-- Scroll: Enchant Armor (C-Grade) -->
+	</day>
+	
+	<day number="7" icon="icon.etc_scroll_of_enchant_weapon_i02">
+		<reward itemId="951" count="2" /> <!-- Scroll: Enchant Weapon (C-Grade) -->
+		<reward itemId="57" count="1500000" /> <!-- Adena Bonus -->
+	</day>
+	
+	<!-- Week 2 -->
+	<day number="8" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="1000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="9" icon="icon.etc_potion_gold_i00">
+		<reward itemId="1540" count="30" /> <!-- Quick Healing Potion -->
+	</day>
+	
+	<day number="10" icon="icon.etc_spirit_bullet_green_i00">
+		<reward itemId="1464" count="1000" /> <!-- Soulshot (C-Grade) -->
+	</day>
+	
+	<day number="11" icon="icon.etc_spell_shot_green_i01">
+		<reward itemId="3949" count="500" /> <!-- Blessed Spiritshot (C-Grade) -->
+	</day>
+	
+	<day number="12" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="2000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="13" icon="icon.etc_scroll_of_enchant_armor_i03">
+		<reward itemId="948" count="3" /> <!-- Scroll: Enchant Armor (B-Grade) -->
+	</day>
+	
+	<day number="14" icon="icon.etc_scroll_of_enchant_weapon_i03">
+		<reward itemId="947" count="2" /> <!-- Scroll: Enchant Weapon (B-Grade) -->
+		<reward itemId="57" count="2500000" /> <!-- Adena Bonus -->
+	</day>
+	
+	<!-- Week 3 -->
+	<day number="15" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="2000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="16" icon="icon.etc_crystal_ball_silver_i00">
+		<reward itemId="2130" count="50" /> <!-- Gemstone D -->
+	</day>
+	
+	<day number="17" icon="icon.etc_spirit_bullet_silver_i00">
+		<reward itemId="1466" count="1000" /> <!-- Soulshot (A-Grade) -->
+	</day>
+	
+	<day number="18" icon="icon.etc_spell_shot_silver_i01">
+		<reward itemId="3951" count="500" /> <!-- Blessed Spiritshot (A-Grade) -->
+	</day>
+	
+	<day number="19" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="3000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="20" icon="icon.etc_scroll_of_enchant_armor_i04">
+		<reward itemId="730" count="3" /> <!-- Scroll: Enchant Armor (A-Grade) -->
+	</day>
+	
+	<day number="21" icon="icon.etc_scroll_of_enchant_weapon_i04">
+		<reward itemId="729" count="2" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
+		<reward itemId="57" count="3500000" /> <!-- Adena Bonus -->
+	</day>
+	
+	<!-- Week 4 -->
+	<day number="22" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="3000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="23" icon="icon.etc_crystal_ball_green_i00">
+		<reward itemId="2131" count="30" /> <!-- Gemstone C -->
+	</day>
+	
+	<day number="24" icon="icon.etc_spirit_bullet_gold_i00">
+		<reward itemId="1467" count="1000" /> <!-- Soulshot (S-Grade)-->
+	</day>
+	
+	<day number="25" icon="icon.etc_spell_shot_gold_i01">
+		<reward itemId="3952" count="500" /> <!-- Blessed Spiritshot (S-Grade) -->
+	</day>
+	
+	<day number="26" icon="icon.etc_adena_i00">
+		<reward itemId="57" count="5000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="27" icon="icon.etc_scroll_of_enchant_armor_i05">
+		<reward itemId="960" count="3" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+	</day>
+	
+	<day number="28" icon="icon.etc_scroll_of_enchant_weapon_i05">
+		<reward itemId="959" count="2" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+		<reward itemId="57" count="5000000" /> <!-- Adena Bonus -->
+	</day>
+	
+	<!-- Final Days - Special Rewards -->
+	<day number="29" icon="icon.etc_codex_of_giant_i03">
+		<reward itemId="9627" count="10" /> <!-- Giant's Codex - Mastery -->
+		<reward itemId="57" count="7000000" /> <!-- Adena -->
+	</day>
+	
+	<day number="30" icon="icon.etc_scroll_of_enchant_weapon_i05">
+		<reward itemId="959" count="5" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+		<reward itemId="960" count="5" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+		<reward itemId="57" count="10000000" /> <!-- Adena - Grand Finale! -->
+	</day>
+	
+	<day number="31" icon="icon.etc_scroll_of_enchant_weapon_i05">
+		<reward itemId="959" count="5" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+		<reward itemId="960" count="5" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+		<reward itemId="57" count="10000000" /> <!-- Adena - Grand Finale! -->
+	</day>
+	
+</list>

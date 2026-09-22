@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn zone="giran08_2124_013">
+		<territory minZ="-3683" maxZ="-3483">
+			<node x="46427" y="204961" />
+			<node x="47040" y="205041" />
+			<node x="47151" y="206130" />
+			<node x="46967" y="206686" />
+			<node x="45939" y="206427" />
+			<node x="45717" y="206109" />
+			<node x="45717" y="205188" />
+		</territory>
+		<npc id="20832" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Pikeman -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21604" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Pikeman -->
+		<npc id="20832" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Pikeman -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21604" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Pikeman -->
+		<npc id="20833" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+		<npc id="20833" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_015">
+		<territory minZ="-3556" maxZ="-3356">
+			<node x="48337" y="205663" />
+			<node x="48773" y="205879" />
+			<node x="48792" y="207687" />
+			<node x="48631" y="207962" />
+			<node x="48025" y="207901" />
+			<node x="47535" y="207469" />
+			<node x="47594" y="206175" />
+		</territory>
+		<npc id="20832" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Pikeman -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21604" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Pikeman -->
+		<npc id="20832" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Pikeman -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21604" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Pikeman -->
+		<npc id="20833" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+		<npc id="20833" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_016">
+		<territory minZ="-3752" maxZ="-3502">
+			<node x="49420" y="207132" />
+			<node x="49564" y="207048" />
+			<node x="49620" y="207332" />
+			<node x="49614" y="207749" />
+			<node x="49422" y="207760" />
+		</territory>
+		<npc id="20833" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_017">
+		<territory minZ="-3772" maxZ="-3572">
+			<node x="49163" y="207966" />
+			<node x="50907" y="207966" />
+			<node x="50907" y="209418" />
+			<node x="49163" y="209418" />
+		</territory>
+		<npc id="20833" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Archer -->
+		<npc id="20836" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie -->
+		<npc id="21607" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Archer -->
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_018">
+		<territory minZ="-3780" maxZ="-3580">
+			<node x="49427" y="209611" />
+			<node x="50885" y="209630" />
+			<node x="50885" y="211183" />
+			<node x="49135" y="211181" />
+		</territory>
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20835" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20835" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+		<npc id="20839" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_023">
+		<territory minZ="-3800" maxZ="-3600">
+			<node x="53067" y="206478" />
+			<node x="54472" y="206453" />
+			<node x="54498" y="207025" />
+			<node x="53054" y="206973" />
+		</territory>
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_024">
+		<territory minZ="-3632" maxZ="-3432">
+			<node x="48360" y="208115" />
+			<node x="48535" y="208115" />
+			<node x="48535" y="209136" />
+			<node x="48360" y="209136" />
+		</territory>
+		<npc id="20835" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+	</spawn>
+	<spawn zone="giran08_2124_025">
+		<territory minZ="-3636" maxZ="-3436">
+			<node x="47595" y="208720" />
+			<node x="47989" y="209095" />
+			<node x="47953" y="209562" />
+			<node x="47595" y="209768" />
+			<node x="46617" y="209740" />
+			<node x="46484" y="208783" />
+			<node x="46702" y="208565" />
+		</territory>
+		<npc id="20835" count="4" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="3" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_026">
+		<territory minZ="-3632" maxZ="-3432">
+			<node x="45467" y="210166" />
+			<node x="47622" y="209897" />
+			<node x="48052" y="210294" />
+			<node x="47959" y="211029" />
+			<node x="46123" y="211234" />
+			<node x="45549" y="211055" />
+			<node x="45316" y="210481" />
+		</territory>
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20835" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_027">
+		<territory minZ="-3624" maxZ="-3424">
+			<node x="47212" y="211356" />
+			<node x="47601" y="211356" />
+			<node x="47583" y="211710" />
+			<node x="47521" y="211813" />
+			<node x="47269" y="211811" />
+		</territory>
+		<npc id="20835" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+	</spawn>
+	<spawn zone="giran08_2124_028">
+		<territory minZ="-3636" maxZ="-3436">
+			<node x="45671" y="209399" />
+			<node x="45922" y="209399" />
+			<node x="45994" y="209823" />
+			<node x="45610" y="209823" />
+		</territory>
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_029">
+		<territory minZ="-3788" maxZ="-3588">
+			<node x="43447" y="209837" />
+			<node x="43776" y="209816" />
+			<node x="44274" y="210102" />
+			<node x="44290" y="210816" />
+			<node x="43352" y="210867" />
+			<node x="43006" y="210651" />
+			<node x="43006" y="210002" />
+		</territory>
+		<npc id="20835" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Seer -->
+		<npc id="21610" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's High Grade Watchman -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_030">
+		<territory minZ="-3764" maxZ="-3564">
+			<node x="42232" y="209877" />
+			<node x="42778" y="210050" />
+			<node x="42735" y="210704" />
+			<node x="42341" y="210985" />
+			<node x="41576" y="210798" />
+			<node x="41576" y="210193" />
+		</territory>
+		<npc id="20839" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+		<npc id="20840" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+	</spawn>
+	<spawn zone="giran08_2124_031">
+		<territory minZ="-3764" maxZ="-3564">
+			<node x="42443" y="211319" />
+			<node x="42784" y="211446" />
+			<node x="43051" y="211604" />
+			<node x="42950" y="211716" />
+			<node x="42346" y="211433" />
+		</territory>
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_032">
+		<territory minZ="-3772" maxZ="-3572">
+			<node x="42983" y="212134" />
+			<node x="43466" y="212134" />
+			<node x="43643" y="212286" />
+			<node x="43573" y="213029" />
+			<node x="43296" y="213165" />
+			<node x="43036" y="213047" />
+			<node x="42918" y="212823" />
+		</territory>
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+		<npc id="20840" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+	</spawn>
+	<spawn zone="giran08_2124_033">
+		<territory minZ="-3748" maxZ="-3548">
+			<node x="43898" y="212426" />
+			<node x="44276" y="212318" />
+			<node x="44575" y="212458" />
+			<node x="44515" y="212667" />
+			<node x="43891" y="212680" />
+		</territory>
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_034">
+		<territory minZ="-3776" maxZ="-3626">
+			<node x="43439" y="213259" />
+			<node x="43589" y="213249" />
+			<node x="43750" y="213760" />
+			<node x="43680" y="214092" />
+		</territory>
+		<npc id="20839" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Unpleasant Humming -->
+		<npc id="21613" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Unpleasant Shout -->
+	</spawn>
+	<spawn zone="giran08_2124_035">
+		<territory minZ="-3764" maxZ="-3564">
+			<node x="42805" y="214266" />
+			<node x="43627" y="214195" />
+			<node x="43386" y="214355" />
+			<node x="42805" y="214405" />
+		</territory>
+		<npc id="20840" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+	</spawn>
+	<spawn zone="giran08_2124_036">
+		<territory minZ="-3752" maxZ="-3552">
+			<node x="41707" y="211982" />
+			<node x="42025" y="211917" />
+			<node x="42463" y="212012" />
+			<node x="42702" y="212346" />
+			<node x="42593" y="212977" />
+			<node x="42301" y="213144" />
+			<node x="41821" y="213081" />
+			<node x="41600" y="212602" />
+		</territory>
+		<npc id="20840" count="4" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="3" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+		<npc id="20841" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_037">
+		<territory minZ="-3752" maxZ="-3552">
+			<node x="42015" y="213410" />
+			<node x="42328" y="213424" />
+			<node x="42468" y="214999" />
+			<node x="41833" y="214943" />
+		</territory>
+		<npc id="20840" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+		<npc id="20841" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_038">
+		<territory minZ="-3732" maxZ="-3532">
+			<node x="46101" y="211469" />
+			<node x="46353" y="211477" />
+			<node x="46204" y="212057" />
+			<node x="45209" y="212124" />
+			<node x="45508" y="211736" />
+		</territory>
+		<npc id="20840" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+	</spawn>
+	<spawn zone="giran08_2124_039">
+		<territory minZ="-3808" maxZ="-3608">
+			<node x="45112" y="212320" />
+			<node x="46048" y="212280" />
+			<node x="46280" y="212392" />
+			<node x="46224" y="212980" />
+			<node x="45261" y="212938" />
+			<node x="45068" y="212504" />
+		</territory>
+		<npc id="20840" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+		<npc id="20841" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_040">
+		<territory minZ="-3800" maxZ="-3600">
+			<node x="45296" y="213219" />
+			<node x="46136" y="213081" />
+			<node x="46289" y="213374" />
+			<node x="46158" y="213669" />
+			<node x="45105" y="213668" />
+		</territory>
+		<npc id="20840" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+		<npc id="20841" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_041">
+		<territory minZ="-3800" maxZ="-3600">
+			<node x="45103" y="213855" />
+			<node x="46096" y="213838" />
+			<node x="46303" y="214020" />
+			<node x="46206" y="214658" />
+			<node x="45479" y="214679" />
+		</territory>
+		<npc id="20840" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Death Flyer -->
+		<npc id="21616" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Gigantic Flyer -->
+		<npc id="20841" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_050">
+		<territory minZ="-3940" maxZ="-3740">
+			<node x="43012" y="218850" />
+			<node x="43708" y="218850" />
+			<node x="43719" y="219260" />
+			<node x="43001" y="219260" />
+		</territory>
+		<npc id="20848" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Light Bringer -->
+	</spawn>
+	<spawn zone="giran08_2124_051">
+		<territory minZ="-3660" maxZ="-3460">
+			<node x="45213" y="219877" />
+			<node x="45834" y="220143" />
+			<node x="45834" y="220842" />
+			<node x="44626" y="220897" />
+			<node x="44372" y="220729" />
+			<node x="44451" y="220042" />
+		</territory>
+		<npc id="20841" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+		<npc id="20842" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+	</spawn>
+	<spawn zone="giran08_2124_052">
+		<territory minZ="-3620" maxZ="-3420">
+			<node x="45982" y="220162" />
+			<node x="46833" y="219847" />
+			<node x="47189" y="220185" />
+			<node x="47166" y="220974" />
+			<node x="46576" y="221032" />
+			<node x="46003" y="220831" />
+		</territory>
+		<npc id="20841" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+		<npc id="20842" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+	</spawn>
+	<spawn zone="giran08_2124_053">
+		<territory minZ="-3792" maxZ="-3592">
+			<node x="46287" y="216779" />
+			<node x="46934" y="216830" />
+			<node x="47171" y="216990" />
+			<node x="47302" y="217417" />
+			<node x="46887" y="218156" />
+			<node x="46467" y="218328" />
+			<node x="46156" y="218312" />
+		</territory>
+		<npc id="20841" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+		<npc id="20842" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+	</spawn>
+	<spawn zone="giran08_2124_054">
+		<territory minZ="-3796" maxZ="-3596">
+			<node x="46292" y="215386" />
+			<node x="46518" y="215271" />
+			<node x="46993" y="215509" />
+			<node x="47358" y="216190" />
+			<node x="47188" y="216577" />
+			<node x="46315" y="216667" />
+		</territory>
+		<npc id="20841" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+		<npc id="20841" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+	</spawn>
+	<spawn zone="giran08_2124_056">
+		<territory minZ="-3632" maxZ="-3432">
+			<node x="49156" y="219671" />
+			<node x="49775" y="219367" />
+			<node x="50478" y="219833" />
+			<node x="49993" y="220764" />
+			<node x="49237" y="221006" />
+			<node x="48781" y="220949" />
+			<node x="48667" y="220208" />
+		</territory>
+		<npc id="20841" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Fiend Archer -->
+		<npc id="21619" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Pit Archer -->
+		<npc id="20842" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20842" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20842" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+	</spawn>
+	<spawn zone="giran08_2124_059">
+		<territory minZ="-3616" maxZ="-3416">
+			<node x="48769" y="216497" />
+			<node x="49476" y="217003" />
+			<node x="49537" y="217372" />
+			<node x="49168" y="217894" />
+			<node x="48639" y="217901" />
+			<node x="48363" y="217717" />
+			<node x="48409" y="216888" />
+		</territory>
+		<npc id="20842" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20842" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_061">
+		<territory minZ="-3620" maxZ="-3420">
+			<node x="48914" y="215051" />
+			<node x="49206" y="215066" />
+			<node x="50235" y="215681" />
+			<node x="50495" y="216417" />
+			<node x="49751" y="216839" />
+			<node x="49030" y="216486" />
+			<node x="48646" y="215826" />
+		</territory>
+		<npc id="20842" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20842" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20843" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_062">
+		<territory minZ="-3552" maxZ="-3352">
+			<node x="48852" y="214396" />
+			<node x="49315" y="214404" />
+			<node x="49324" y="214596" />
+			<node x="48852" y="214596" />
+		</territory>
+		<npc id="20842" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+	</spawn>
+	<spawn zone="giran08_2124_064">
+		<territory minZ="-3464" maxZ="-3264">
+			<node x="48846" y="212831" />
+			<node x="49319" y="212831" />
+			<node x="49319" y="213840" />
+			<node x="48846" y="213840" />
+		</territory>
+		<npc id="20842" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Musveren -->
+		<npc id="21622" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Greater Musveren -->
+		<npc id="20843" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_065">
+		<territory minZ="-3460" maxZ="-3260">
+			<node x="47262" y="213191" />
+			<node x="48665" y="213191" />
+			<node x="48665" y="214357" />
+			<node x="47262" y="214357" />
+		</territory>
+		<npc id="20843" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20843" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="giran08_2124_066">
+		<territory minZ="-3464" maxZ="-3264">
+			<node x="49464" y="213202" />
+			<node x="50764" y="213202" />
+			<node x="50764" y="214368" />
+			<node x="49464" y="214368" />
+		</territory>
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20986" count="1" respawnDelay="320" respawnRandom="90" chaseRange="2500" /> <!-- Sairon -->
+	</spawn>
+	<spawn zone="giran08_2124_067">
+		<territory minZ="-3384" maxZ="-3184">
+			<node x="48786" y="211389" />
+			<node x="49376" y="211385" />
+			<node x="49376" y="212506" />
+			<node x="48786" y="212510" />
+		</territory>
+		<npc id="20843" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="3" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_068">
+		<territory minZ="-3380" maxZ="-3180">
+			<node x="47185" y="211923" />
+			<node x="48604" y="211923" />
+			<node x="48604" y="213089" />
+			<node x="47185" y="213089" />
+		</territory>
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20986" count="2" respawnDelay="320" respawnRandom="90" chaseRange="2500" /> <!-- Sairon -->
+	</spawn>
+	<spawn zone="giran08_2124_069">
+		<territory minZ="-3376" maxZ="-3176">
+			<node x="49559" y="211921" />
+			<node x="50962" y="211921" />
+			<node x="50962" y="213087" />
+			<node x="49559" y="213087" />
+		</territory>
+		<npc id="20843" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20844" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20986" count="2" respawnDelay="320" respawnRandom="90" chaseRange="2500" /> <!-- Sairon -->
+	</spawn>
+	<spawn zone="giran08_2124_070">
+		<territory minZ="-3380" maxZ="-3180">
+			<node x="51128" y="212089" />
+			<node x="52041" y="212074" />
+			<node x="52056" y="212943" />
+			<node x="51143" y="212958" />
+		</territory>
+		<npc id="20843" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="t121_24_071">
+		<territory minZ="-3380" maxZ="-3180">
+			<node x="52188" y="211564" />
+			<node x="52570" y="211568" />
+			<node x="52570" y="212596" />
+			<node x="52188" y="212592" />
+		</territory>
+		<npc id="20843" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_072">
+		<territory minZ="-3384" maxZ="-3034">
+			<node x="49514" y="211415" />
+			<node x="50184" y="211420" />
+			<node x="50184" y="211815" />
+			<node x="49514" y="211810" />
+		</territory>
+		<npc id="20843" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Zaken's Royal Guard -->
+		<npc id="21625" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zaken's Elite Guard -->
+	</spawn>
+	<spawn zone="giran08_2124_073">
+		<territory minZ="-3060" maxZ="-2860">
+			<node x="50630" y="211383" />
+			<node x="51129" y="211383" />
+			<node x="51129" y="211858" />
+			<node x="50642" y="211858" />
+		</territory>
+		<npc id="20844" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="giran08_2124_075">
+		<territory minZ="-3056" maxZ="-2706">
+			<node x="50673" y="210566" />
+			<node x="51054" y="210572" />
+			<node x="51054" y="211317" />
+			<node x="50667" y="211311" />
+		</territory>
+		<npc id="20844" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="giran08_2124_076">
+		<territory minZ="-2736" maxZ="-2536">
+			<node x="50608" y="209718" />
+			<node x="51145" y="209718" />
+			<node x="51150" y="210201" />
+			<node x="50614" y="210201" />
+		</territory>
+		<npc id="20844" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="giran08_2124_078">
+		<territory minZ="-2740" maxZ="-2540">
+			<node x="49135" y="207867" />
+			<node x="51120" y="207877" />
+			<node x="51116" y="209461" />
+			<node x="49131" y="209451" />
+		</territory>
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20844" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20986" count="3" respawnDelay="320" respawnRandom="90" chaseRange="2500" /> <!-- Sairon -->
+	</spawn>
+	<spawn zone="giran08_2124_079">
+		<territory minZ="-2740" maxZ="-2390">
+			<node x="51239" y="209755" />
+			<node x="51970" y="209755" />
+			<node x="51970" y="210166" />
+			<node x="51239" y="210166" />
+		</territory>
+		<npc id="20844" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+	</spawn>
+	<spawn zone="giran08_2124_080">
+		<territory minZ="-2504" maxZ="-2304">
+			<node x="52345" y="209743" />
+			<node x="52846" y="209743" />
+			<node x="52836" y="210194" />
+			<node x="52345" y="210194" />
+		</territory>
+		<npc id="20845" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+	</spawn>
+	<spawn zone="giran08_2124_081">
+		<territory minZ="-2492" maxZ="-2292">
+			<node x="51639" y="208195" />
+			<node x="52812" y="208195" />
+			<node x="52812" y="209649" />
+			<node x="51639" y="209649" />
+		</territory>
+		<npc id="20844" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Kaim Vanul -->
+		<npc id="21628" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Kaim Vanul Lad -->
+		<npc id="20845" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20986" count="1" respawnDelay="320" respawnRandom="90" chaseRange="2500" /> <!-- Sairon -->
+	</spawn>
+	<spawn zone="giran08_2124_082">
+		<territory minZ="-2496" maxZ="-2296">
+			<node x="51645" y="210291" />
+			<node x="52794" y="210291" />
+			<node x="52794" y="211698" />
+			<node x="51645" y="211698" />
+		</territory>
+		<npc id="20845" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20846" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+	</spawn>
+	<spawn zone="giran08_2124_084">
+		<territory minZ="-2504" maxZ="-2304">
+			<node x="53024" y="208754" />
+			<node x="54183" y="208754" />
+			<node x="54183" y="209567" />
+			<node x="53024" y="209567" />
+		</territory>
+		<npc id="20845" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20846" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+	</spawn>
+	<spawn zone="giran08_2124_085">
+		<territory minZ="-2496" maxZ="-2296">
+			<node x="53037" y="210358" />
+			<node x="53946" y="210358" />
+			<node x="53946" y="211161" />
+			<node x="53027" y="211152" />
+		</territory>
+		<npc id="20845" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20846" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+	</spawn>
+	<spawn zone="giran08_2124_086">
+		<territory minZ="-2496" maxZ="-2296">
+			<node x="54853" y="209648" />
+			<node x="55245" y="209648" />
+			<node x="55245" y="210250" />
+			<node x="54853" y="210250" />
+		</territory>
+		<npc id="20845" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+	</spawn>
+	<spawn zone="giran08_2124_077">
+		<territory minZ="-2748" maxZ="-2548">
+			<node x="49128" y="209812" />
+			<node x="50504" y="209812" />
+			<node x="50504" y="210920" />
+			<node x="49128" y="210920" />
+		</territory>
+		<npc id="20845" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Pirate Zombie Captain -->
+		<npc id="21631" count="3" respawnDelay="180" chaseRange="2500" /> <!-- Zombie Captain's Spiritual Body -->
+		<npc id="20846" count="3" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+		<npc id="20846" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+	</spawn>
+	<spawn zone="giran08_2124_087">
+		<territory minZ="-2492" maxZ="-2292">
+			<node x="54847" y="210380" />
+			<node x="55238" y="210370" />
+			<node x="55238" y="210714" />
+			<node x="54847" y="210714" />
+		</territory>
+		<npc id="20846" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+	</spawn>
+	<spawn zone="giran08_2124_096">
+		<territory minZ="-3816" maxZ="-3616">
+			<node x="50944" y="214948" />
+			<node x="51568" y="213856" />
+			<node x="51528" y="215760" />
+			<node x="51084" y="215756" />
+		</territory>
+		<npc id="20846" count="1" respawnDelay="55" chaseRange="2500" /> <!-- Doll Blader -->
+		<npc id="21634" count="1" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Doll Blader -->
+		<npc id="20847" count="2" respawnDelay="55" chaseRange="2500" /> <!-- Veil Master -->
+		<npc id="21637" count="2" respawnDelay="180" chaseRange="2500" /> <!-- Crimson Veil Master -->
+	</spawn>
+</list>

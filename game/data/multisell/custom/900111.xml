@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- CB -->
+	</npcs>
+	<item>
+		<!-- Adena -->
+		<ingredient count="5361000" id="57" />
+		<!-- Tateossian Necklace -->
+		<production count="1" id="920" />
+
+	</item>
+	
+	<item>
+		<!-- Adena -->
+		<ingredient count="4270001" id="57" />
+		<!-- Tateossian Earring -->
+		<production count="1" id="858" />
+	</item>
+
+	<item>
+		<!-- Adena -->
+		<ingredient count="3280103" id="57" />
+		<!-- Tateossian Ring -->
+		<production count="1" id="889" />
+	</item>
+</list>

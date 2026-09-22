@@ -1,0 +1,43 @@
+<html noscrollbar>
+	<title>Skills</title>
+	<body>
+		<table width=270 border=0 bgcolor="444444">
+			<tr>
+				<td width=40><button value="Main" action="bypass admin_admin" width=65 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td width=180><center>Skills Menu</center></td>
+				<td width=40><button value="Back" action="bypass admin_show_skills" width=65 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+		</table>
+		<br><br><center>
+		<table width=270>
+			<tr>
+				<td align="center"><img src="icon.skillhuman" width=32 height=32></td>
+				<td align="center"><img src="icon.skillelf" width=32 height=32></td>
+				<td align="center"><img src="icon.skilldarkelf" width=32 height=32></td>
+				<td align="center"><img src="icon.skillorc" width=32 height=32></td>
+				<td align="center"><img src="icon.skilldwarf" width=32 height=32></td>
+				<td align="center"><img src="icon.skillkamael" width=32 height=32></td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				%racelist%
+			</tr>
+		</table></center>
+		<br><br>
+		<button value="" width=280 height=5 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br1><br>
+		Add skill through ID:<br1>
+		<table width=270>
+			<tr>
+				<td>Skill Id:</td>
+				<td>Level:</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><edit var="id" width=60></td>
+				<td><edit var="level" width=60></td>
+				<td><button value="Add Skill" action="bypass -h admin_add_skill $id $level" width=100 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>	
+		</table>
+	</body>
+</html>

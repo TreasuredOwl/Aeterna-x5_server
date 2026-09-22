@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Lovers' Jubilee" active="09 02 2021-23 02 2023" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="20903" min="1" max="1" chance="1%"/> <!-- Rose Petal -->
+		<add item="20904" min="1" max="1" chance="10%"/> <!-- Rose Essense -->
+	</droplist>
+	<spawnlist>
+		<add npc="4305" x="-84240" y="243255" z="-3731" heading="16000" /> <!-- Talking Island -->
+		<add npc="4305" x="46070" y="48610" z="-3062" heading="23000" /> <!-- Elven Village -->
+		<add npc="4305" x="11491" y="17663" z="-4587" heading="46999" /> <!-- Dark Elven Village -->
+		<add npc="4305" x="-119420" y="44881" z="368" heading="25500" /> <!-- Kamael Village -->
+		<add npc="4305" x="117047" y="-182670" z="-1530" heading="24576" /> <!-- Dwarf Village -->
+		<add npc="4305" x="-44687" y="-113169" z="-241" heading="16384" /> <!-- Orc Village -->	
+		<add npc="4305" x="116210" y="77084" z="-2728" heading="4096" /> <!-- Hunter Village -->
+		<add npc="4305" x="87616" y="-140688" z="-1542" heading="16500" /> <!-- Schuttgart -->
+		<add npc="4305" x="18559" y="145920" z="-3075" heading="49152" /> <!-- Dion -->
+		<add npc="4305" x="82543" y="149728" z="-3471" heading="49151" /> <!-- Giran -->
+		<add npc="4305" x="-83169" y="151208" z="-3131" heading="0" /> <!-- Gludin -->
+		<add npc="4305" x="-13726" y="122416" z="-2990" heading="49151" /> <!-- Gludio -->		
+		<add npc="4305" x="80304" y="56527" z="-1562" heading="49151" /> <!-- Oren -->
+		<add npc="4305" x="148550" y="26781" z="-2208" heading="32768" /> <!-- Aden -->				
+		<add npc="4305" x="108303" y="221815" z="-3600" heading="0" /> <!-- Heine -->			
+		<add npc="4305" x="149661" y="-57047" z="-3007" heading="45055" /> <!-- Goddard -->
+		<add npc="4305" x="44694" y="-50684" z="-799" heading="22000" /> <!-- Rune -->
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Lover's Jubilee: Event end!" />
+		<add type="onEnter" text="Lover's Jubilee: Event ongoing!" />
+	</messages>
+</event>

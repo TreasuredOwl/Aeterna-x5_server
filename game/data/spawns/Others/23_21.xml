@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="23_21">
+		<npc id="22822" x="110058" y="111108" z="-3112" heading="37246" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="111195" y="110538" z="-3056" heading="51658" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="112267" y="109706" z="-2984" heading="35646" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="112662" y="109861" z="-2976" heading="27873" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="114190" y="112505" z="-3096" heading="18973" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="117054" y="110588" z="-2984" heading="62291" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="118328" y="109680" z="-2944" heading="17374" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="119213" y="110259" z="-3032" heading="41095" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="119807" y="109227" z="-2944" heading="7294" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="119904" y="108475" z="-2960" heading="23399" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="120304" y="110514" z="-3056" heading="60181" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="120708" y="108088" z="-2960" heading="60432" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="121215" y="107989" z="-2984" heading="64871" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="121934" y="109097" z="-2912" heading="53339" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="123849" y="108928" z="-3040" heading="17264" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="125011" y="109658" z="-3072" heading="2105" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22823" x="108384" y="117497" z="-3056" heading="61496" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="108785" y="118194" z="-3104" heading="40996" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="108816" y="116843" z="-3056" heading="19317" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="109031" y="116771" z="-3056" heading="23769" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="109090" y="113613" z="-3032" heading="19911" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="116038" y="110008" z="-3032" heading="39284" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="116345" y="109735" z="-3048" heading="42271" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="116653" y="110353" z="-3000" heading="43573" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="116994" y="110034" z="-2976" heading="19828" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117466" y="109877" z="-2936" heading="60435" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117479" y="111139" z="-3056" heading="51546" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117490" y="111037" z="-3048" heading="56664" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117678" y="111555" z="-3056" heading="24785" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117692" y="110919" z="-3040" heading="41301" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="117981" y="110897" z="-3040" heading="58684" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="118852" y="109991" z="-2960" heading="11015" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="119271" y="109299" z="-2984" heading="743" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="119798" y="110152" z="-3056" heading="40069" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="120111" y="110497" z="-3056" heading="1869" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="123330" y="108239" z="-3032" heading="743" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="124264" y="108431" z="-2952" heading="37605" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="124538" y="109478" z="-3096" heading="49559" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="124966" y="109947" z="-3096" heading="63293" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="124992" y="109702" z="-3080" heading="10993" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="125053" y="110303" z="-3096" heading="62368" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="125476" y="111960" z="-3192" heading="62746" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="126213" y="112012" z="-3280" heading="56873" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22824" x="110653" y="113012" z="-2792" heading="22020" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="110938" y="112292" z="-2792" heading="16068" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111419" y="112771" z="-2776" heading="62647" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111635" y="112947" z="-2776" heading="61884" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111897" y="117845" z="-3008" heading="9231" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111952" y="116273" z="-3056" heading="50195" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111985" y="116318" z="-3056" heading="15344" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112027" y="116905" z="-2992" heading="27988" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112286" y="118520" z="-3080" heading="6303" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112429" y="115960" z="-3176" heading="17653" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112655" y="117857" z="-3072" heading="43116" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112711" y="118440" z="-3080" heading="62578" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112748" y="115406" z="-3224" heading="57680" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112798" y="115652" z="-3216" heading="60500" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112979" y="116209" z="-3152" heading="45777" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113017" y="116563" z="-3104" heading="2262" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113682" y="116705" z="-3144" heading="60498" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113733" y="116523" z="-3168" heading="42804" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113944" y="109843" z="-2976" heading="53724" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114141" y="116178" z="-3200" heading="21474" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114201" y="115093" z="-3208" heading="33450" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114342" y="115185" z="-3208" heading="33457" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114494" y="112724" z="-3040" heading="6647" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114515" y="110126" z="-2992" heading="36843" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114563" y="115701" z="-3256" heading="9891" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114632" y="115362" z="-3240" heading="6953" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114672" y="109640" z="-3008" heading="40778" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="115885" y="114909" z="-3096" heading="28556" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="115890" y="115009" z="-3088" heading="13321" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22825" x="102352" y="121920" z="-3640" heading="899" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="103235" y="121521" z="-3720" heading="31740" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="104399" y="120906" z="-3688" heading="27097" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="104407" y="122027" z="-3800" heading="9104" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="105679" y="123253" z="-3624" heading="6109" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="106161" y="120048" z="-3712" heading="36205" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="106864" y="120370" z="-3688" heading="46768" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="107969" y="122600" z="-3656" heading="55339" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="108402" y="120989" z="-3696" heading="45797" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22826" x="100503" y="111340" z="-3672" heading="10584" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="100898" y="117604" z="-3712" heading="27130" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="100958" y="117024" z="-3672" heading="3681" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101105" y="118590" z="-3672" heading="8964" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101112" y="110699" z="-3664" heading="47157" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101283" y="121191" z="-3712" heading="22872" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101395" y="115849" z="-3720" heading="41906" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101416" y="116969" z="-3688" heading="42364" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101417" y="113255" z="-3704" heading="15150" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101418" y="113366" z="-3704" heading="10615" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101598" y="115835" z="-3720" heading="42952" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101728" y="117967" z="-3664" heading="21910" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101776" y="112952" z="-3680" heading="4463" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101788" y="113664" z="-3688" heading="6542" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="102161" y="112921" z="-3696" heading="19922" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="102836" y="111136" z="-3696" heading="38784" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="103282" y="111764" z="-3704" heading="5180" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="103341" y="121830" z="-3720" heading="36205" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="103872" y="122911" z="-3720" heading="19901" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="104244" y="122361" z="-3792" heading="2618" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="104269" y="121963" z="-3800" heading="9386" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="104334" y="120647" z="-3664" heading="31800" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="104513" y="120719" z="-3680" heading="34230" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="105598" y="121448" z="-3752" heading="38515" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="105669" y="121676" z="-3720" heading="23912" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="105835" y="121520" z="-3688" heading="13618" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106095" y="120887" z="-3672" heading="25850" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106111" y="120232" z="-3672" heading="22986" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106155" y="120703" z="-3680" heading="3097" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106238" y="121933" z="-3640" heading="15548" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106289" y="122502" z="-3616" heading="60047" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106308" y="120169" z="-3696" heading="5078" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106389" y="122322" z="-3632" heading="31058" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106477" y="122831" z="-3672" heading="57284" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106660" y="120520" z="-3688" heading="27960" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106887" y="120091" z="-3672" heading="20564" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106911" y="120609" z="-3680" heading="11746" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106911" y="122302" z="-3672" heading="6454" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="106939" y="120576" z="-3680" heading="8801" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="107007" y="120060" z="-3664" heading="25907" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="107750" y="122368" z="-3664" heading="53359" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="107900" y="122766" z="-3640" heading="4098" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="108178" y="122249" z="-3664" heading="16978" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="108326" y="122234" z="-3664" heading="6776" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="108371" y="121223" z="-3696" heading="26972" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="108633" y="121047" z="-3720" heading="9763" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22827" x="118130" y="116744" z="-3720" heading="21979" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="120767" y="120259" z="-3056" heading="30785" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="121057" y="115665" z="-3608" heading="20190" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="122463" y="116802" z="-3643" heading="61876" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22828" x="124967" y="115173" z="-3720" heading="24176" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="125802" y="115108" z="-3720" heading="1909" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="125854" y="115203" z="-3720" heading="49910" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="126144" y="114596" z="-3688" heading="26188" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22831" x="110670" y="110471" z="-3061" heading="30799" respawnDelay="300" /> <!-- Dragon Tracker of the Valley -->
+		<npc id="22832" x="114694" y="114701" z="-3151" heading="799" respawnDelay="300" /> <!-- Dragon Scout of the Valley -->
+		<npc id="22832" x="117266" y="111137" z="-3054" heading="45144" respawnDelay="300" /> <!-- Dragon Scout of the Valley -->
+		<npc id="22832" x="124950" y="109275" z="-3053" heading="35245" respawnDelay="300" /> <!-- Dragon Scout of the Valley -->
+		<npc id="22833" x="113619" y="117481" z="-3129" heading="22337" respawnDelay="360" /> <!-- Sand Drake Tracker -->
+		<npc id="22833" x="123677" y="108508" z="-3015" heading="58062" respawnDelay="360" /> <!-- Sand Drake Tracker -->
+		<npc id="22834" x="108770" y="117414" z="-3042" heading="38802" respawnDelay="240" /> <!-- Dust Dragon Tracker -->
+		<npc id="22834" x="112508" y="110567" z="-2982" heading="26432" respawnDelay="240" /> <!-- Dust Dragon Tracker -->
+		<npc id="22834" x="115880" y="110205" z="-3035" heading="31060" respawnDelay="240" /> <!-- Dust Dragon Tracker -->
+		<npc id="22860" x="116883" y="119262" z="-3688" heading="27846" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117383" y="119967" z="-3648" heading="33195" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117793" y="118898" z="-3664" heading="57570" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117860" y="118648" z="-3680" heading="57300" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117871" y="118926" z="-3656" heading="57501" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117991" y="117959" z="-3704" heading="38277" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="118002" y="117960" z="-3704" heading="0" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="118149" y="118041" z="-3680" heading="4022" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="122845" y="115694" z="-3632" heading="22621" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="122864" y="115732" z="-3632" heading="18293" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="122870" y="115643" z="-3632" heading="22988" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22861" x="101387" y="119500" z="-3496" heading="23018" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22861" x="102372" y="120690" z="-3568" heading="36347" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22861" x="103663" y="123497" z="-3720" heading="15548" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22861" x="105879" y="122520" z="-3600" heading="61998" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22861" x="109828" y="121647" z="-3712" heading="8551" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22862" x="108416" y="116886" z="-3056" heading="27536" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="108973" y="115872" z="-3096" heading="39165" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="109197" y="115301" z="-3104" heading="35841" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="109570" y="113788" z="-3048" heading="11784" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="115520" y="110105" z="-3024" heading="17266" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="115797" y="109969" z="-3032" heading="20810" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="124639" y="111106" z="-3112" heading="51410" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="125203" y="110509" z="-3080" heading="39888" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22862" x="125589" y="110960" z="-3096" heading="4719" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="25721" x="121876" y="114727" z="-3728" heading="19188" respawnDelay="60" /> <!-- Blackdagger Wing -->
+		<npc id="30758" x="102069" y="103120" z="-3504" heading="6000" respawnDelay="60" /> <!-- Athrea -->
+		<npc id="30832" x="105745" y="114255" z="-3136" heading="49152" respawnDelay="60" /> <!-- Hardin -->
+		<npc id="30833" x="104870" y="113221" z="-3184" heading="4096" respawnDelay="60" /> <!-- Kaspar -->
+		<npc id="30834" x="105792" y="114290" z="-3136" heading="49000" respawnDelay="60" /> <!-- Cema -->
+		<npc id="30835" x="106581" y="113352" z="-3192" heading="28672" respawnDelay="60" /> <!-- Icarus -->
+		<npc id="30836" x="105888" y="109808" z="-3216" heading="45056" respawnDelay="60" /> <!-- Minerva -->
+		<npc id="30981" x="105990" y="106171" z="-3488" heading="24575" respawnDelay="60" /> <!-- Black Judge -->
+		<npc id="31045" x="99361" y="109843" z="-3664" heading="22121" respawnDelay="60" /> <!-- Kitzka -->
+		<npc id="31580" x="106608" y="113296" z="-3192" heading="30000" respawnDelay="60" /> <!-- Galadrid -->
+		<npc id="31581" x="106636" y="113392" z="-3192" heading="30000" respawnDelay="60" /> <!-- Anastia -->
+		<npc id="31582" x="104840" y="113260" z="-3184" heading="0" respawnDelay="60" /> <!-- Mordred -->
+		<npc id="31810" x="105850" y="109807" z="-3200" heading="46000" respawnDelay="60" /> <!-- Adventure Guildsman -->
+		<npc id="32723" x="101578" y="110546" z="-3664" heading="16368" respawnDelay="60" />
+		<npc id="32723" x="107958" y="117417" z="-3032" heading="7408" respawnDelay="60" />
+		<npc id="32723" x="108507" y="113011" z="-3048" heading="64254" respawnDelay="60" />
+		<npc id="32723" x="110480" y="121632" z="-3704" heading="27816" respawnDelay="60" />
+		<npc id="32723" x="112078" y="122904" z="-3720" heading="52240" respawnDelay="60" />
+		<npc id="32723" x="117668" y="109610" z="-2856" heading="14600" respawnDelay="60" />
+		<npc id="32723" x="120450" y="112338" z="-3720" heading="17352" respawnDelay="60" />
+		<npc id="32723" x="122141" y="113458" z="-3792" heading="63888" respawnDelay="60" />
+		<npc id="32723" x="124117" y="111817" z="-3056" heading="2344" respawnDelay="60" />
+		<npc id="32723" x="125846" y="111064" z="-3072" heading="41488" respawnDelay="60" />
+		<npc id="32866" x="99111" y="110361" z="-3688" heading="9540" respawnDelay="60" /> <!-- Separated Soul -->
+		<npc id="32867" x="116946" y="113555" z="-3056" heading="2002" respawnDelay="60" /> <!-- Separated Soul -->
+		<npc id="32868" x="113071" y="121043" z="-3712" heading="2002" respawnDelay="60" /> <!-- Separated Soul -->
+		<npc id="32871" x="108924" y="111992" z="-3028" heading="0" respawnDelay="60" /> <!-- Dragon Vortex -->
+		<npc id="32871" x="110116" y="125500" z="-3664" heading="0" respawnDelay="60" /> <!-- Dragon Vortex -->
+		<npc id="32871" x="121172" y="113348" z="-3776" heading="0" respawnDelay="60" /> <!-- Dragon Vortex -->
+		<npc id="32890" x="99434" y="109868" z="-3664" heading="21929" respawnDelay="60" /> <!-- Ruiman -->
+		<npc id="22826" x="102102" y="111655" z="-3735" heading="62846" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101567" y="112202" z="-3711" heading="19944" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101960" y="113387" z="-3712" heading="15590" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="101459" y="118420" z="-3674" heading="15753" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="102321" y="118624" z="-3711" heading="19981" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22861" x="102577" y="119654" z="-3633" heading="55076" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22826" x="103316" y="120456" z="-3721" heading="7228" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="102224" y="122699" z="-3676" heading="18174" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22825" x="102452" y="123386" z="-3697" heading="22205" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22826" x="104789" y="123455" z="-3733" heading="48366" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="105079" y="121231" z="-3820" heading="51229" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22825" x="105034" y="122568" z="-3740" heading="16979" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22825" x="107080" y="121910" z="-3683" heading="28475" respawnDelay="60" /> <!-- Giant Scorpion Bones -->
+		<npc id="22826" x="109192" y="121499" z="-3751" heading="63235" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22861" x="109811" y="122465" z="-3693" heading="13157" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22826" x="109731" y="123175" z="-3655" heading="17554" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22826" x="109933" y="122212" z="-3695" heading="49286" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22861" x="108982" y="122646" z="-3683" heading="29246" respawnDelay="60" /> <!-- Hard Scorpion Bones -->
+		<npc id="22826" x="108188" y="121611" z="-3735" heading="39741" respawnDelay="60" /> <!-- Scorpion Bones -->
+		<npc id="22860" x="113005" y="122312" z="-3726" heading="24938" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="112804" y="122325" z="-3743" heading="32094" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="113008" y="122153" z="-3733" heading="58229" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="113162" y="122214" z="-3722" heading="16806" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="112608" y="122250" z="-3752" heading="33453" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="114959" y="120418" z="-3699" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="114369" y="120326" z="-3797" heading="33509" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="115364" y="120223" z="-3686" heading="51398" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="115243" y="119948" z="-3702" heading="34459" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="115514" y="119823" z="-3684" heading="13118" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116360" y="120248" z="-3692" heading="12766" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116296" y="119070" z="-3752" heading="50980" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="115996" y="120031" z="-3691" heading="24042" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116615" y="119661" z="-3727" heading="224" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116373" y="117925" z="-3752" heading="54250" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22827" x="116409" y="117241" z="-3751" heading="49700" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22860" x="118319" y="117191" z="-3752" heading="2777" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117620" y="116979" z="-3752" heading="35839" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117438" y="116403" z="-3752" heading="6694" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116636" y="116963" z="-3750" heading="27931" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116487" y="118787" z="-3752" heading="15435" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117730" y="119579" z="-3685" heading="3297" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="116188" y="117259" z="-3752" heading="44869" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="118593" y="116431" z="-3761" heading="59875" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="118293" y="117562" z="-3752" heading="45270" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="117952" y="117423" z="-3752" heading="36805" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22828" x="120079" y="114760" z="-3687" heading="51095" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120037" y="114967" z="-3706" heading="31572" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120677" y="114740" z="-3673" heading="32393" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120181" y="114086" z="-3721" heading="39479" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22827" x="120701" y="114436" z="-3730" heading="42657" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="122336" y="114253" z="-3819" heading="64388" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="121058" y="116668" z="-3651" heading="28322" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22827" x="123893" y="114832" z="-3693" heading="63986" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22860" x="123035" y="114890" z="-3737" heading="31871" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="121971" y="115460" z="-3695" heading="27638" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="121843" y="116415" z="-3659" heading="18254" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="123442" y="116477" z="-3683" heading="375" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="123984" y="115468" z="-3679" heading="54960" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="123368" y="114208" z="-3795" heading="43124" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="121947" y="114563" z="-3791" heading="35529" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="122365" y="116445" z="-3638" heading="15832" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="122079" y="115695" z="-3681" heading="43794" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="123635" y="114973" z="-3691" heading="57914" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22860" x="124304" y="115463" z="-3712" heading="57298" respawnDelay="60" /> <!-- Hungry Parasitic Leech -->
+		<npc id="22828" x="124618" y="114784" z="-3722" heading="60684" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="127263" y="114016" z="-3545" heading="58102" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="127683" y="114377" z="-3570" heading="7405" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="126894" y="114442" z="-3626" heading="31910" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="126790" y="113414" z="-3627" heading="46623" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="127053" y="114131" z="-3552" heading="33878" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22823" x="125421" y="112278" z="-3249" heading="35792" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="124843" y="111634" z="-3159" heading="41813" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22822" x="124319" y="109012" z="-3094" heading="13538" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="122336" y="108489" z="-3046" heading="24320" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22822" x="121096" y="108969" z="-3009" heading="27722" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22823" x="121996" y="108301" z="-3001" heading="60516" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="120474" y="108795" z="-2965" heading="27535" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="120510" y="109536" z="-3035" heading="19719" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="119475" y="110873" z="-3083" heading="23066" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22822" x="117928" y="110528" z="-3015" heading="6093" respawnDelay="60" /> <!-- Drakos Warrior -->
+		<npc id="22824" x="113736" y="111577" z="-3148" heading="20155" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114299" y="111723" z="-3154" heading="2646" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113585" y="110587" z="-3076" heading="41777" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="113669" y="112087" z="-3145" heading="43549" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="114166" y="111100" z="-3121" heading="51559" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112001" y="112397" z="-2802" heading="8985" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="112330" y="111473" z="-2781" heading="61567" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="111745" y="111968" z="-2802" heading="49336" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22824" x="109941" y="111998" z="-3087" heading="23587" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22862" x="109370" y="113098" z="-3090" heading="21378" respawnDelay="60" /> <!-- Drakos Hunter -->
+		<npc id="22823" x="108298" y="117780" z="-3087" heading="20165" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22823" x="108583" y="117584" z="-3074" heading="28364" respawnDelay="60" /> <!-- Drakos Assassin -->
+		<npc id="22824" x="115035" y="114910" z="-3218" heading="30285" respawnDelay="60" /> <!-- Drakos Guardian -->
+		<npc id="22828" x="122696" y="119938" z="-3180" heading="29280" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120509" y="122023" z="-3013" heading="20438" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="119869" y="121697" z="-3076" heading="33602" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120050" y="122093" z="-3067" heading="11912" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120704" y="121369" z="-3061" heading="57390" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120371" y="121153" z="-3087" heading="43578" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22827" x="121328" y="119490" z="-3112" heading="54199" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22828" x="120626" y="121604" z="-3029" heading="58148" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="121369" y="121558" z="-3004" heading="64891" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120222" y="121200" z="-3087" heading="34295" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="121092" y="119968" z="-3094" heading="61010" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="120770" y="120625" z="-3087" heading="25249" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22827" x="120541" y="121304" z="-3082" heading="19776" respawnDelay="60" /> <!-- Batwing Drake -->
+		<npc id="22828" x="121289" y="119490" z="-3110" heading="51653" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="122487" y="120772" z="-3138" heading="21422" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="122406" y="119452" z="-3193" heading="41160" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="121454" y="121738" z="-3011" heading="28899" respawnDelay="60" /> <!-- Parasitic Leech -->
+		<npc id="22828" x="121084" y="119897" z="-3099" heading="47245" respawnDelay="60" /> <!-- Parasitic Leech -->
+	</spawn>
+</list>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/Achievements.xsd">
+    <categories>
+        <kitekat>
+    <cat id="1" name="Progression and Evolution" desc="Character growth" icon="icon.skill3123"/>
+    <cat id="2" name="Hunting and Bosses" desc="Hunting list" icon="icon.skill0431"/>
+    <cat id="3" name="Battles and PvP" desc="Overcome your limits in combat" icon="icon.skill5075"/>
+    <cat id="4" name="Clans" desc="Be part of something bigger" icon="icon.skill1327"/>
+    <cat id="5" name="Economy and Crafting" desc="Wealth, production and trade" icon="icon.etc_recipe_white_i00"/>
+        </kitekat>
+    </categories>
+
+	<!-- Progression and Evolution achievements -->
+    <achievement id="1" cat="1" type="classlevel" desc="Improve your profession">
+        <levels>
+            <lvl id="1" name="Awakening" icon="icon.skill0785" need="1" />
+			<lvl id="2" name="Forging Destiny" icon="icon.skill0785" need="2" />
+			<lvl id="3" name="Master of the Path" icon="icon.skill0785" need="3" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="2" cat="1" type="level" desc="Reach level 85">
+        <levels>
+            <lvl id="1" name="The Legend" icon="icon.etc_exp_point_i00" need="85" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="3" cat="1" type="hassubclass" desc="Have a subclass">
+        <levels>
+            <lvl id="1" name="New Path" icon="icon.etc_quest_subclass_reward_i00" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="4" cat="1" type="noble" desc="Become a Noble">
+        <levels>
+            <lvl id="1" name="Noble Soul" icon="icon.skill6288" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="5" cat="1" type="hero" desc="Become a Hero">
+        <levels>
+            <lvl id="1" name="Heroic Champion" icon="icon.skill5762" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+
+	<!-- Hunting and Bosses achievements -->
+    <achievement id="21" cat="2" type="raidkill" desc="Kill %need% raidbosses">
+        <levels>
+            <lvl id="1" name="My first raid" icon="icon.skill4289" need="1"  />
+            <lvl id="2" name="Beginner Hunter" icon="icon.skill4289" need="10"  />
+            <lvl id="3" name="Beginner Hunter" icon="icon.skill4289" need="50" />
+            <lvl id="4" name="Advanced Hunter" icon="icon.skill4289" need="100" />
+            <lvl id="5" name="Advanced Hunter" icon="icon.skill4289" need="150" />
+            <lvl id="6" name="Advanced Hunter" icon="icon.skill4289" need="200" />
+            <lvl id="7" name="King of Slaughter" icon="icon.skill4289" need="500" />
+            <lvl id="8" name="King of Slaughter" icon="icon.skill4289" need="600" />
+            <lvl id="9" name="King of Slaughter" icon="icon.skill4289" need="800" />
+            <lvl id="10" name="Raid Slayer" icon="icon.skill4289" need="1000" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+
+	<!-- Battles and PvP achievements -->
+    <achievement id="31" cat="3" type="pvpkill" desc="You need to win %need% PvPs">
+        <levels>
+            <lvl id="1" name="First Blood" icon="icon.skill0522" need="1" />
+            <lvl id="2" name="The Butcher" icon="icon.skill0522" need="50" />
+            <lvl id="3" name="Field Executioner" icon="icon.skill0522" need="100" />
+            <lvl id="4" name="General" icon="icon.skill0522" need="500"  />
+            <lvl id="5" name="The Victorious" icon="icon.skill0522" need="1000" />
+            <lvl id="6" name="Master of Honor" icon="icon.skill0522" need="2000" />
+            <lvl id="7" name="King of the Coliseum" icon="icon.skill0522" need="3000" />
+            <lvl id="8" name="The Martyr" icon="icon.skill0522" need="4000" />
+            <lvl id="9" name="The Unbreakable" icon="icon.skill0522" need="5000" />
+            <lvl id="10" name="The Untouchable" icon="icon.skill0522" need="10000" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+
+    <!-- Cursed weapons usage (per-weapon, lifetime) -->
+    <achievement id="32" cat="3" type="usedzariche" desc="Wield Zariche at least once">
+        <levels>
+            <lvl id="1" name="The Curse of Zariche" icon="icon.weapon_unique_zariche_i01" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="33" cat="3" type="usedakamanah" desc="Wield Akamanah at least once">
+        <levels>
+            <lvl id="1" name="The Curse of Akamanah" icon="icon.weapon_aka_i00" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+
+	<!-- Clans achievements -->
+	<achievement id="41" cat="4" type="contestableclanhall" desc="Own a conquerable Clan Hall">
+        <levels>
+            <lvl id="1" name="Clan Hall Conqueror" icon="icon.skill0326" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="42" cat="4" type="buyableclanhall" desc="Own a buyable Clan Hall">
+        <levels>
+            <lvl id="1" name="Clan Hall Holder" icon="icon.etc_paper_white_i00" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="43" cat="4" type="siegewon" desc="Have your own castle">
+        <levels>
+            <lvl id="1" name="Castle Holder" icon="icon.skill4416_none" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="44" cat="4" type="fortressewon" desc="Have your own fortress">
+        <levels>
+            <lvl id="1" name="Fortress Holder" icon="icon.skill1556" need="1" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+
+	<!-- Economy and Crafting achievements -->
+    <achievement id="51" cat="5" type="craft" desc="Craft %need% items.">
+        <levels>
+            <lvl id="1" name="My first items" icon="icon.skill1368" need="10"  />
+            <lvl id="2" name="Following the Recipes" icon="icon.skill1368" need="50"  />
+            <lvl id="3" name="The Artisan" icon="icon.skill1368" need="100"  />
+            <lvl id="4" name="The Scroll Destroyer" icon="icon.skill1368" need="500" />
+            <lvl id="5" name="Treasure Hands" icon="icon.skill1368" need="1000" />
+            <lvl id="6" name="The Provider" icon="icon.skill1368" need="2000" />
+            <lvl id="7" name="Hands of Ore" icon="icon.skill1368" need="3000" />
+            <lvl id="8" name="The Lucky One" icon="icon.skill1368" need="4000"/>
+            <lvl id="9" name="Elite Craftsmanship" icon="icon.skill1368" need="5000"/>
+            <lvl id="10" name="The Master Artisan" icon="icon.skill1368" need="10000"/>
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+    <achievement id="52" cat="5" type="catchFish" desc="Catch %need% fishes.">
+        <levels>
+            <lvl id="1" name="Fisherman" icon="icon.skill1319" need="50" />
+            <lvl id="2" name="Fisherman" icon="icon.skill1319" need="100" />
+            <lvl id="3" name="Fisherman" icon="icon.skill1319" need="500" />
+            <lvl id="4" name="Fisherman" icon="icon.skill1319" need="1000" />
+            <lvl id="5" name="Fisherman" icon="icon.skill1319" need="5000" />
+            <lvl id="6" name="Fisherman" icon="icon.skill1319" need="10000" />
+            <lvl id="7" name="Fisherman" icon="icon.skill1319" need="50000" />
+            <lvl id="8" name="Fisherman" icon="icon.skill1319" need="100000" />
+        </levels>
+        <rewards >
+            <item id="57" count="10" />
+            <item id="5570" count="5" />
+            <item id="5572" count="5" />
+            <item id="5574" count="5" />
+        </rewards>
+    </achievement>
+ </list>
